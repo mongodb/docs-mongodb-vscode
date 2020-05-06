@@ -1,0 +1,103 @@
+---
+title: Paste your connection string.
+level: 4
+ref: vsce-enter-connection-info
+content: |
+  If you have the connection string for your deployment available, you
+  can paste the string directly into the |vscode-short| Command Palette. 
+  You can use either the :manual:`Standard Connection String Format
+  </reference/connection-string/#connections-standard-connection-string-format>`
+  or the :manual:`DNS Seedlist Connection Format
+  </reference/connection-string/#connections-dns-seedlist>`.
+
+  - To obtain the connection string for an |service| cluster:
+  
+    a. Navigate to your |service| :guilabel:`Clusters` view.
+
+    #. Click :guilabel:`Connect` for your desired cluster.
+
+    #. Click :guilabel:`Connect with MongoDB Compass`.
+
+    #. Copy the provided connection string.
+
+  - To learn how to format the connection string for a deployment
+    which is not hosted on |service|, see
+    :manual:`Connection String URI Format
+    </reference/connection-string>`.
+---
+title: Connect.
+level: 4
+ref: vsce-connect
+content: |
+   a. In |vscode-short|, open the Command Palette:
+
+      .. list-table::
+         :header-rows: 1
+         :widths: 33 33 34
+
+         * - Operating System
+           - Method
+           - Actions
+
+         * - Any
+           - |vscode-short| Menu
+           - :guilabel:`View` > :guilabel:`Command Palette`
+
+         * - MacOS
+           - Keyboard Shortcut
+           - Press ``Command`` + ``Shift`` + ``P``
+
+         * - Windows and Linux
+           - Keyboard Shortcut
+           - Press ``Control`` + ``Shift`` + ``P``
+   
+   #. From the Command Palette, select 
+      :guilabel:`Add MongoDB Connection with Connection String`. 
+
+      .. tip::
+
+         Enter ``mongodb`` in the Command Palette to display all of the 
+         |vsce| commands you can use.
+
+   #. Paste your connection string into the Command Palette. 
+
+      .. important::
+
+         Ensure that you update the connection string with credentials
+         of a database user for your deployment. The connection might 
+         succeed without these credentials, but you won't be able to
+         interact with data in your deployment.
+
+   #. Press **Enter**.
+
+   #. From the Command Palette, chose where you want to save the 
+      connection.
+
+      .. list-table::
+         :header-rows: 1
+         :widths: 50 50
+         :stub-columns: 1
+
+         * - Option
+           - Description
+
+         * - Save the connection on this workspace
+           - The connection is available only when you open the
+             workspace in which you created the connection in 
+            |vscode-short|.
+
+         * - Save the connection globally on vscode
+           - The connection is available whenever you open |vscode-short|.
+
+         * - Don't save this connection
+           - The connection is available until you close |vscode-short|.
+
+   .. admonition:: Required Access
+      :class: important
+
+      Once you are connected to your MongoDB deployment, you may
+      require specific :manual:`user roles <reference/built-in-roles/>`
+      to access various |vsce| features. For more information
+      on the required roles for |vsce| features, see
+      :ref:`required-access`.
+...
