@@ -15,7 +15,7 @@ Navigate Your Data
 Once you connect to your deployment using |vsce|, use the left
 navigation to:
 
-- Explore your databases, collections, and documents. 
+- Explore your databases, collections, read-only views, and documents. 
 
 - Create new databases and collections.
 
@@ -42,6 +42,10 @@ Documents
 When you expand a collection's documents, |vsce| lists the ``_id`` of
 each document in the collection. Click an ``_id`` value to open that
 document in VS Code and view its contents.
+
+.. note::
+
+   You cannot open a single document within a read-only view.
 
 Alternatively, right-click a collection and click
 :guilabel:`View Documents` to view all of the collection's documents
@@ -104,9 +108,9 @@ Drop a Database or Collection
 
 .. important::
 
-   Dropping data from MongoDB is an irreversible process. Be careful to
-   only drop data you are sure you want to delete, and backup your data
-   as necessary.
+   Dropping data from MongoDB is an irreversible process. Take caution
+   to only drop data you are sure you want to delete, and backup your
+   data as necessary.
 
    Dropping a database also drops all collections and documents within
    that database.
