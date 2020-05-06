@@ -1,0 +1,8 @@
+---
+title: "In |vscode-short|, open the Command Palette."
+level: 4
+ref: vsce-command-palette
+content: |
+
+      .. include:: /includes/list-tables/command-palette-options.rst
+...

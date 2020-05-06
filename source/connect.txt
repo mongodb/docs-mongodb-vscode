@@ -44,15 +44,18 @@ Considerations
   :guilabel:`SRV record` or :guilabel:`Replica Set Name` when 
   filling in your connection information.
 
-- If you are using Kerberos as your authentication mechanism, do not 
-  specify the :guilabel:`Password` in the connection form.
+.. - If you are using Kerberos as your authentication mechanism, do not 
+..  specify the :guilabel:`Password` in the connection form.
+
+.. _vsce-connect-task:
 
 Connect
 -------
 
-|vsce| provides two methods to connect to your deployment,
-either providing your deployment connection string or filling in your
-deployment information in specific fields.
+|vsce| provides two methods to connect to your deployment. You can: 
+
+- Provide your deployment connection string, or 
+- Fill in your deployment information in specific fields.
 
 .. tabs::
 
@@ -71,5 +74,29 @@ deployment information in specific fields.
 
       .. include:: /includes/steps/starting-vsce-individual-fields.rst
 
+.. _vsce-disconnect-task:
+
 Disconnect
 ----------
+
+|vsce| provides two methods to connect to your deployment. You can:
+
+- Disconnect with the Command Palette, or
+- Disconnect from the :guilabel:`MongoDB` view in the 
+  :guilabel:`Activity Bar`.
+
+.. tabs::
+
+   .. tab:: Disconnect with the Command Palette
+      :tabid: disconnect-command-palette
+
+      .. include:: /includes/steps/disconnect-command-palette.rst
+
+   .. tab:: Disconnect from the MongoDB View
+      :tabid: individual-fields
+
+      .. include:: /includes/steps/disconnect-mongodb-view.rst
+
+Disconnecting from a MongoDB instance closes the |vsce| connection to 
+the active instance. You must :ref:`reconnect <vsce-connect-task>` to 
+interact with data in your deployment again.

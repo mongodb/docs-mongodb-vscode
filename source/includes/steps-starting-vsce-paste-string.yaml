@@ -1,10 +1,9 @@
 ---
-title: Paste your connection string.
+title: Obtain your connection string.
 level: 4
 ref: vsce-enter-connection-info
 content: |
-  If you have the connection string for your deployment available, you
-  can paste the string directly into the |vscode-short| Command Palette. 
+ 
   You can use either the :manual:`Standard Connection String Format
   </reference/connection-string/#connections-standard-connection-string-format>`
   or the :manual:`DNS Seedlist Connection Format
@@ -25,79 +24,71 @@ content: |
     :manual:`Connection String URI Format
     </reference/connection-string>`.
 ---
-title: Connect.
+source:
+  file: steps-open-command-palette.yaml
+  ref: vsce-command-palette
+ref: vsce-connect-command-palette
+---
+title: "From the Command Palette, select 
+      :guilabel:`MongoDB: Connect with Connection String...`."
 level: 4
-ref: vsce-connect
+ref: vsce-connect-connect
 content: |
-   a. In |vscode-short|, open the Command Palette:
 
-      .. list-table::
-         :header-rows: 1
-         :widths: 33 33 34
+  .. tip::
 
-         * - Operating System
-           - Method
-           - Actions
+     Enter ``mongodb`` in the Command Palette to display all of the 
+     |vsce| commands you can use.
 
-         * - Any
-           - |vscode-short| Menu
-           - :guilabel:`View` > :guilabel:`Command Palette`
+---
 
-         * - MacOS
-           - Keyboard Shortcut
-           - Press ``Command`` + ``Shift`` + ``P``
+title: "Paste your connection string into the Command Palette."
+level: 4
+ref: vsce-connect-paste
+content: |
 
-         * - Windows and Linux
-           - Keyboard Shortcut
-           - Press ``Control`` + ``Shift`` + ``P``
-   
-   #. From the Command Palette, select 
-      :guilabel:`Add MongoDB Connection with Connection String`. 
+  .. important::
 
-      .. tip::
+    Ensure that you update the connection string with credentials
+    of a database user for your deployment. The connection might 
+    succeed without these credentials, but you won't be able to
+    interact with data in your deployment.
 
-         Enter ``mongodb`` in the Command Palette to display all of the 
-         |vsce| commands you can use.
+---
+title: "Press the **Enter** or **Return** key."
+level: 4
+ref: vsce-connect-enter
+---
+title: "From the Command Palette, chose where you want to save the 
+      connection."
+level: 4
+ref: vsce-connect-save
+content: |
 
-   #. Paste your connection string into the Command Palette. 
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+     :stub-columns: 1
 
-      .. important::
+     * - Option
+       - Description
 
-         Ensure that you update the connection string with credentials
-         of a database user for your deployment. The connection might 
-         succeed without these credentials, but you won't be able to
-         interact with data in your deployment.
+     * - Save the connection on this workspace
+       - The connection is available only when you open the workspace in
+         which you created the connection in |vscode-short|.
 
-   #. Press **Enter**.
+     * - Save the connection globally on vscode
+       - The connection is available whenever you open |vscode-short|.
 
-   #. From the Command Palette, chose where you want to save the 
-      connection.
+     * - Don't save this connection
+       - The connection is available until you close |vscode-short|.
 
-      .. list-table::
-         :header-rows: 1
-         :widths: 50 50
-         :stub-columns: 1
+  .. admonition:: Required Access
+     :class: important
 
-         * - Option
-           - Description
-
-         * - Save the connection on this workspace
-           - The connection is available only when you open the
-             workspace in which you created the connection in 
-            |vscode-short|.
-
-         * - Save the connection globally on vscode
-           - The connection is available whenever you open |vscode-short|.
-
-         * - Don't save this connection
-           - The connection is available until you close |vscode-short|.
-
-   .. admonition:: Required Access
-      :class: important
-
-      Once you are connected to your MongoDB deployment, you may
-      require specific :manual:`user roles <reference/built-in-roles/>`
-      to access various |vsce| features. For more information
-      on the required roles for |vsce| features, see
-      :ref:`required-access`.
+    Once you are connected to your MongoDB deployment, you may
+    require specific :manual:`user roles <reference/built-in-roles/>`
+    to access various |vsce| features. For more information
+    on the required roles for |vsce| features, see
+    :ref:`required-access`.
 ...
