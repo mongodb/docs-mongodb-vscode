@@ -4,4 +4,47 @@
 MongoDB for VS Code Settings
 ============================
 
+.. default-domain:: mongodb
+
 .. include:: /includes/fact-vsce-preview.rst
+
+.. list-table::
+   :header-rows: 1
+   
+   * - Setting
+     - Description
+
+   * - :guilabel:`Shell`
+     - MongoDB shell to use.
+
+   * - :guilabel:`Show`
+     - Show or hide the MongoDB view.
+
+   * - :guilabel:`Max Number of Problems`
+     - Controls the maximum number of problems produced by the server.
+
+   * - :guilabel:`Trace: Server`
+     - Edit in ``settings.json``.
+
+   * - :guilabel:`Confirm Run All`
+     - Show a confirmation message before running commands in a 
+       playground.
+
+   * - :guilabel:`Connection Saving: Default Connection Saving Location`
+     - When the setting that hides the option to choose where to save 
+       new connections is checked, this setting sets if and where new connections are saved.
+
+   * - :guilabel:`Connection Saving: Hide Option To Choose Where To Save New Connections`
+     - When a connection is added, a prompt is shown that lets the user 
+       decide where the new connection should be saved. When this setting is checked, the prompt is not shown and the default connection saving location setting is used.
+
+   * - :guilabel:`Default Limit`
+     - Number of documents to fetch when viewing documents from a 
+       collection.
+
+   * - :guilabel:`Send Telemetry`
+     - Opt-in and opt-out for diagnostic and telemetry collection.
+
+   * - :guilabel:`Use Default Template For Playground`
+     - Choose wether to use default template for playground files or to 
+       start with an empty playground editor.
