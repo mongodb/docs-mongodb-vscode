@@ -4,14 +4,14 @@ ref: open-cmd-palette
 content: |
     In Visual Studio Code, press either
 
-    - :guilabel:`Control + Shift + P` or
+    - :guilabel:`Control + Shift + P`.
 
     - :guilabel:`Command + Shift + P`.
 
     The :guilabel:`Command Palette` provides quick access to commands
     and keyboard shortcuts.
 ---
-title: Find and select the "Create MongoDB Playground" command.
+title: Find and run the "Create MongoDB Playground" command.
 level: 4
 ref: find-playground-command
 content: |
@@ -26,7 +26,7 @@ content: |
 
    .. note::
 
-      You can elect to have new playgrounds load without the template by
+      You can load new Playgrounds without the template by
       disabling the :guilabel:`Use Default Template For Playground`
       setting. To learn more about |vsce| settings, see
       :ref:`vsce-settings`.

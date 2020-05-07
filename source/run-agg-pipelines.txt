@@ -14,7 +14,7 @@ Run Aggregation Pipelines
 
 You can run :manual:`aggregation pipelines </aggregation>` on your
 collections in |vsce|. Aggregation pipelines consist of
-:manual:`stages </reference/operator/aggregation-pipeline/>` which
+:manual:`stages </reference/operator/aggregation-pipeline/>` that
 process your data and return computed results.
 
 Common uses for aggregation include:
@@ -24,7 +24,7 @@ Common uses for aggregation include:
 - Calculating results based on multiple fields and storing those results
   in a new field.
 
-- Filtering data to return a subset which matches a given criteria.
+- Filtering data to return a subset that matches a given criteria.
 
 - Sorting data.
 
@@ -36,7 +36,7 @@ Open a Playground to Run Aggregation Pipelines
 
 You can run aggregation pipelines in a MongoDB Playground. MongoDB
 Playgrounds are JavaScript environments where you can prototype queries,
-aggregations and MongoDB commands with helpful syntax highlighting.
+aggregations, and MongoDB commands with helpful syntax highlighting.
 
 To open a new MongoDB Playground:
 
@@ -101,7 +101,7 @@ This pipeline:
 
 #. Inserts eight documents into the ``test.sales`` collection.
 
-#. Performs an aggregation with two stages:
+#. Performs an aggregation in two stages:
 
    |
 
@@ -112,7 +112,7 @@ This pipeline:
    Second Stage
      The :pipeline:`$group` stage groups the data by item. The stage
      adds a new field to the output called ``totalSaleAmount``, which
-     is the product of the item's ``price`` and ``quantity``.
+     is the culmination of the item's ``price`` and ``quantity``.
 
 When you press the :guilabel:`Play Button`, this operation outputs the
 following documents to the :guilabel:`Output` view in Visual Studio
