@@ -18,5 +18,5 @@ level: 4
 ref: search-mongodb-in-settings
 content: |
     MongoDB for VS Code extension settings are displayed. Changes you 
-    make to MongoDB for VS Code settings are saved automatically.
+    make are saved automatically.
 ...

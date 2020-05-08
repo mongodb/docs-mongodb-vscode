@@ -18,11 +18,16 @@ MongoDB for VS Code Settings
 Configure Settings
 ------------------
 
+To configure MongoDB for VS code settings:
+
 .. include:: /includes/steps/configure-settings.rst
 
 Settings
 --------
 >>>>>>> Add config procedure
+
+The following table lists the available settings for 
+MongoDB for VS Code:
 
 .. list-table::
    :header-rows: 1
@@ -31,36 +36,40 @@ Settings
      - Description
 
    * - :guilabel:`Shell`
-     - MongoDB shell to use.
+     - MongoDB shell to use. Defaults to ``mongo``.
 
    * - :guilabel:`Show`
-     - Show or hide the MongoDB view.
+     - If checked, shows the MongoDB view in the Visual Studio Code 
+       left navigation panel.
 
    * - :guilabel:`Max Number of Problems`
-     - Controls the maximum number of problems produced by the server.
-
-   * - :guilabel:`Trace: Server`
-     - Edit in ``settings.json``.
+     - The maximum number of problems MongoDB for VS Code will generate 
+       in the Visual Studio Code :guilabel:`Problems` view.
 
    * - :guilabel:`Confirm Run All`
-     - Show a confirmation message before running commands in a 
-       playground.
+     - If checked, shows a confirmation message before running 
+       commands in a playground.
 
    * - :guilabel:`Connection Saving: Default Connection Saving Location`
-     - When the setting that hides the option to choose where to save 
-       new connections is checked, this setting sets if and where new connections are saved.
+     - Sets if and where new connections are saved. Defaults to 
+       ``Global``.
 
    * - :guilabel:`Connection Saving: Hide Option To Choose Where To Save New Connections`
-     - When a connection is added, a prompt is shown that lets the user 
-       decide where the new connection should be saved. When this setting is checked, the prompt is not shown and the default connection saving location setting is used.
+     - If unchecked, you are prompted to choose where to save each new 
+       connection. 
+       
+       If checked, new connections are automatically saved to the 
+       :guilabel:`Default Connection Saving Location` without prompt.
 
    * - :guilabel:`Default Limit`
      - Number of documents to fetch when viewing documents from a 
        collection.
 
    * - :guilabel:`Send Telemetry`
-     - Opt-in and opt-out for diagnostic and telemetry collection.
+     - If checked, allows the collection of anonymous diagnostic and 
+       usage telemetry data to help improve the product.
 
    * - :guilabel:`Use Default Template For Playground`
-     - Choose wether to use default template for playground files or to 
-       start with an empty playground editor.
+     - If checked, playground files use the default template.
+
+       If unchecked, playground files use an empty playground editor.
