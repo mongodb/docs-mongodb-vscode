@@ -44,7 +44,8 @@ Considerations
   the result of an election, |vsce| may either forcibly close
   the connection or display stale data.
 
-- You can't connect |vsce| directly to an :term:`analytics node`.
+- You can't connect |vsce| directly to an :atlas:`analytics node 
+  <faq/#what-are-analytics-nodes>`.
 
 - |vsce| appends the ``appName`` connection string option with a value
   of ``mongodb-vscode <version>`` for all deployment connections.
@@ -60,8 +61,13 @@ Create a Connection to a Deployment
 |vsce| provides two methods to create a connection to a deployment. You 
 can: 
 
-- Provide your deployment connection string, or 
-- Fill in your deployment information in specific fields.
+- Provide a deployment connection string, or 
+- Fill in a deployment information in specific fields.
+
+Providing a connection string is faster and easier than filling in a 
+deployment's details. Use this option if |service| hosts your 
+deployment or if you have a connection string for a deployment 
+available.
 
 .. tabs::
 
@@ -121,12 +127,17 @@ interact with data in your deployment again.
 Remove a Connection
 -------------------
 
-|vsce| provides two methods to remove a connection to a deployment. 
-You can:
+|vsce| provides two methods to remove a connection to a deployment from
+|vscode-short|. You can:
 
 - Remove a connection with the Command Palette, or
 - Remove a connection from the :guilabel:`MongoDB` view in the 
   :guilabel:`Activity Bar`.
+
+.. important::
+
+   Removing a connection from |vscode-short| removes it both from the 
+   current workspace and from |vscode-short| globally.
 
 .. tabs::
 

@@ -6,7 +6,7 @@ content: |
 
   .. include:: /includes/list-tables/command-palette-options.rst
 ---
-title: "From the Command Palette, chose where you want to save the 
+title: "From the Command Palette, choose where you want to save the 
       connection."
 level: 4
 ref: vsce-connect-save
@@ -33,10 +33,8 @@ content: |
   .. admonition:: Required Access
      :class: important
 
-    Once you are connected to your MongoDB deployment, you may
-    require specific :manual:`user roles <reference/built-in-roles/>`
-    to access various |vsce| features. For more information
-    on the required roles for |vsce| features, see
-    :ref:`required-access`.
+     Once you are connected to your MongoDB deployment, you may
+     require specific :manual:`user roles <reference/built-in-roles/>`
+     to access various |vsce| features.
 
 ...

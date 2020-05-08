@@ -46,10 +46,10 @@ content: |
 
   .. important::
 
-     Ensure that you update the connection string with credentials
-     of a database user for your deployment. The connection might 
-     succeed without these credentials, but you won't be able to
-     interact with data in your deployment.
+     If your deployment requires authentication, ensure that you update 
+     the connection string with credentials of a database user for your 
+     deployment. The connection might succeed without these credentials,
+     but you won't be able to interact with data in your deployment.
 
 ---
 title: "Press the **Enter** or **Return** key."

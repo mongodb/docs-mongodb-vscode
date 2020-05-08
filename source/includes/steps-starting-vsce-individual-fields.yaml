@@ -8,15 +8,11 @@ title: Create a connection to a deployment.
 level: 4
 ref: create-connection
 content: |
-  If you have no connections, click :guilabel:`Add Connection`.
 
-  If you have at least one connection, but you want to add another one,
-  choose one of the following:
+  a. Click the :guilabel:`Plus` icon.
 
-  - Click the :guilabel:`Add MongoDB Connection` icon.
-
-  - Expand the :guilabel:`More Actions` menu (:guilabel:`...`), then 
-    click :guilabel:`Add MongoDB Connection`.
+  #. Expand the :guilabel:`More Actions` menu (:guilabel:`...`), then 
+     click :guilabel:`Add MongoDB Connection`.
 
 ---
 title: Enter your connection information.
@@ -146,7 +142,7 @@ content: |
 
                  For more information on the ``SCRAM``
                  authentication mechanism, see :manual:`SCRAM
-                 </manual/core/security-scram/>`.
+                 </core/security-scram/>`.
 
              - id: ldap
                name: LDAP
@@ -182,16 +178,17 @@ content: |
                     If you are using 
                     :atlas:`Atlas-managed certificates </security-add-mongodb-users/#select-an-authentication-method>`
                     , your username must be prefaced by "CN="
-                    per :rfc:`2253`. For example, the username 
-                    "X509User" must be provided as "CN=X509User".
+                    per `RFC 2253 <https://tools.ietf.org/html/rfc2253>__`. 
+                    For example, the username "X509User" must be 
+                    provided as "CN=X509User".
 
 ---
-title: "(Optional) Specify replica set and security connection options."
+title: "Specify replica set and security connection options."
 level: 4
+optional: true
 ref: connect-additional-options
 content: |
-  The :guilabel:`More Options` connection screen allows you to specify
-  the following connection options:
+  You can specify the following security connection options:
 
   .. list-table::
      :header-rows: 1
@@ -207,11 +204,35 @@ content: |
      * - :guilabel:`Read Preference`
        - Specifies how Compass directs read operations. Options are:
 
-         - ``Primary``, 
-         - ``Primary Preferred``, 
-         - ``Secondary``,
-         - ``Secondary Preferred``, and 
-         - ``Nearest``.
+         .. list-table::
+            :header-rows: 1
+            :widths: 20 50
+
+            * - Read Preference Mode
+              - Description
+
+            * - ``primary``
+              - Default mode. All operations read from the current 
+                replica set primary.
+
+            * - ``primaryPreferred``
+              - In most situations, operations read from the primary but
+                if it is unavailable, operations read from secondary
+                members.
+
+            * - ``secondary``
+              - All operations read from the secondary members of the
+                replica set.
+
+            * - ``secondaryPreferred``
+              - In most situations, operations read from secondary
+                members but if no secondary members are available,
+                operations read from the primary.
+
+            * - ``nearest``
+              - Operations read from member of the replica
+                set with the least network latency, irrespective of the 
+                member's type.
          
          To learn more about read preferences, see
          :manual:`Read Preference </core/read-preference/>`.

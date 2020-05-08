@@ -4,7 +4,7 @@ source:
   ref: open-mongodb-view
 ref: disconnect-open-mongodb-view
 ---
-title: "Right-click the connection you want to remove, then click :guilabel:`Remove Connection."
+title: "Right-click the connection you want to remove, then click :guilabel:`Remove Connection`."
 level: 4
 ref: remove-connection-mdb-view
 ---
