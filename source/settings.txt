@@ -67,7 +67,7 @@ MongoDB for VS Code:
 
    * - :guilabel:`Send Telemetry`
      - If checked, allows the collection of anonymous diagnostic and 
-       usage telemetry data to help improve the product.
+       usage telemetry data to help improve MongoDB for VS Code.
 
    * - :guilabel:`Use Default Template For Playground`
      - If checked, playground files use the default template.
