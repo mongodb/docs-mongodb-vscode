@@ -1,0 +1,7 @@
+.. _vsce-commands:
+
+============================
+MongoDB for VS Code Commands
+============================
+
+.. default-domain:: mongodb
