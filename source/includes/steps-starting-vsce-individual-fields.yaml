@@ -419,6 +419,10 @@ content: |
            tunnel. |vsce| cannot establish a connection
            to multiple servers across the same SSH tunnel.
 ---
+ref: vsce-click-connect
+level: 4
+title: "Click :guilabel:`Connect`."
+---
 ref: vsce-connect-details-save
 source:
   file: steps-source-command-palette.yaml
