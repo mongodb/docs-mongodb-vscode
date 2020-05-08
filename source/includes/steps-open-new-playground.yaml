@@ -4,9 +4,9 @@ ref: open-cmd-palette
 content: |
     In Visual Studio Code, press one of the following key combinations:
 
-    - :guilabel:`Control + Shift + P`.
+    - :guilabel:`Control + Shift + P` on Windows or Linux.
 
-    - :guilabel:`Command + Shift + P`.
+    - :guilabel:`Command + Shift + P` on macOS.
 
     The :guilabel:`Command Palette` provides quick access to commands
     and keyboard shortcuts.
