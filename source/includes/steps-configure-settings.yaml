@@ -1,0 +1,22 @@
+title: Open the Settings View.
+level: 4
+ref: open-settings
+content: |
+    a. In Visual Studio Code, click :guilabel:`Code` in the top 
+       navigation bar.
+
+    #. Select :guilabel:`Preferences`.
+
+    #. Select :guilabel:`Settings`.
+
+    Alternatively, you can open the :guilabel:`Settings` view by
+    pressing :guilabel:`Command + ,`.
+
+---
+title: Search "MongoDB" in the :guilabel:`Settings` search bar.
+level: 4
+ref: search-mongodb-in-settings
+content: |
+    MongoDB for VS Code extension settings are displayed. Changes you 
+    make to MongoDB for VS Code settings are saved automatically.
+...

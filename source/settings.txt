@@ -6,7 +6,23 @@ MongoDB for VS Code Settings
 
 .. default-domain:: mongodb
 
+<<<<<<< HEAD
 .. include:: /includes/fact-vsce-preview.rst
+=======
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Configure Settings
+------------------
+
+.. include:: /includes/steps/configure-settings.rst
+
+Settings
+--------
+>>>>>>> Add config procedure
 
 .. list-table::
    :header-rows: 1
