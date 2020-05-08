@@ -27,24 +27,24 @@ or sharded cluster host.
    installation, offers a free tier to get started, and provides a 
    copyable URI to easily connect |vsce| to your deployment.
 
-If you need to install |vsce|, see :ref:`install` for instructions.
+If you need to install |vsce|, see :ref:`vsce-install` for instructions.
 
 Considerations
 --------------
 
 - When connecting |vsce| to a replica set, it is not
   recommended to connect directly to an individual replica
-  set member. If the member to which you are connected switches from a
+  set member. Instead, to connect to a replica set, use either the 
+  replica set :guilabel:`SRV record` or :guilabel:`Replica Set Name` 
+  when filling in your connection information.
+
+  If the member to which you are connected switches from a
   :manual:`primary </core/replica-set-primary/>` member to a
   :manual:`secondary </core/replica-set-secondary/>` or vice versa as
   the result of an election, |vsce| may either forcibly close
   the connection or display stale data.
 
-  Instead, to connect to a replica set, use either the replica set
-  :guilabel:`SRV record` or :guilabel:`Replica Set Name` when 
-  filling in your connection information.
-
-- You can't connect |vsce| directly to an analytics node.
+- You can't connect |vsce| directly to an :term:`analytics node`.
 
 - |vsce| appends the ``appName`` connection string option with a value
   of ``mongodb-vscode <version>`` for all deployment connections.
