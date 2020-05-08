@@ -25,7 +25,7 @@ content: |
     </reference/connection-string>`.
 ---
 source:
-  file: steps-open-command-palette.yaml
+  file: steps-source-command-palette.yaml
   ref: vsce-command-palette
 ref: vsce-connect-command-palette
 ---
@@ -35,10 +35,7 @@ level: 4
 ref: vsce-connect-connect
 content: |
 
-  .. tip::
-
-     Enter ``mongodb`` in the Command Palette to display all of the 
-     |vsce| commands you can use.
+  .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
 
 ---
 
@@ -49,46 +46,18 @@ content: |
 
   .. important::
 
-    Ensure that you update the connection string with credentials
-    of a database user for your deployment. The connection might 
-    succeed without these credentials, but you won't be able to
-    interact with data in your deployment.
+     Ensure that you update the connection string with credentials
+     of a database user for your deployment. The connection might 
+     succeed without these credentials, but you won't be able to
+     interact with data in your deployment.
 
 ---
 title: "Press the **Enter** or **Return** key."
 level: 4
 ref: vsce-connect-enter
 ---
-title: "From the Command Palette, chose where you want to save the 
-      connection."
-level: 4
-ref: vsce-connect-save
-content: |
-
-  .. list-table::
-     :header-rows: 1
-     :widths: 50 50
-     :stub-columns: 1
-
-     * - Option
-       - Description
-
-     * - Save the connection on this workspace
-       - The connection is available only when you open the workspace in
-         which you created the connection in |vscode-short|.
-
-     * - Save the connection globally on vscode
-       - The connection is available whenever you open |vscode-short|.
-
-     * - Don't save this connection
-       - The connection is available until you close |vscode-short|.
-
-  .. admonition:: Required Access
-     :class: important
-
-    Once you are connected to your MongoDB deployment, you may
-    require specific :manual:`user roles <reference/built-in-roles/>`
-    to access various |vsce| features. For more information
-    on the required roles for |vsce| features, see
-    :ref:`required-access`.
+ref: vsce-connect-string-save
+source:
+  file: steps-source-command-palette.yaml
+  ref: vsce-connect-save
 ...

@@ -44,15 +44,21 @@ Considerations
   :guilabel:`SRV record` or :guilabel:`Replica Set Name` when 
   filling in your connection information.
 
+- You can't connect |vsce| directly to an analytics node.
+
+- |vsce| appends the ``appName`` connection string option with a value
+  of ``mongodb-vscode <version>`` for all deployment connections.
+
 .. - If you are using Kerberos as your authentication mechanism, do not 
 ..  specify the :guilabel:`Password` in the connection form.
 
 .. _vsce-connect-task:
 
-Connect
--------
+Create a Connection to a Deployment
+-----------------------------------
 
-|vsce| provides two methods to connect to your deployment. You can: 
+|vsce| provides two methods to create a connection to a deployment. You 
+can: 
 
 - Provide your deployment connection string, or 
 - Fill in your deployment information in specific fields.
@@ -74,12 +80,23 @@ Connect
 
       .. include:: /includes/steps/starting-vsce-individual-fields.rst
 
+.. _vsce-activate-connection:
+
+Activate a Connection 
+---------------------
+
+You can connect |vsce| to only one deployment at a time. To change the
+active connection to a different deployment, or to connect to a 
+deployment from which you were disconnected:
+
+.. include:: /includes/steps/activate-connection.rst
+
 .. _vsce-disconnect-task:
 
-Disconnect
-----------
+Disconnect from a Deployment
+----------------------------
 
-|vsce| provides two methods to connect to your deployment. You can:
+|vsce| provides two methods to disconnect from a deployment. You can:
 
 - Disconnect with the Command Palette, or
 - Disconnect from the :guilabel:`MongoDB` view in the 
@@ -93,10 +110,32 @@ Disconnect
       .. include:: /includes/steps/disconnect-command-palette.rst
 
    .. tab:: Disconnect from the MongoDB View
-      :tabid: individual-fields
+      :tabid: remove-connection-mdb-view
 
       .. include:: /includes/steps/disconnect-mongodb-view.rst
 
 Disconnecting from a MongoDB instance closes the |vsce| connection to 
 the active instance. You must :ref:`reconnect <vsce-connect-task>` to 
 interact with data in your deployment again.
+
+Remove a Connection
+-------------------
+
+|vsce| provides two methods to remove a connection to a deployment. 
+You can:
+
+- Remove a connection with the Command Palette, or
+- Remove a connection from the :guilabel:`MongoDB` view in the 
+  :guilabel:`Activity Bar`.
+
+.. tabs::
+
+   .. tab:: Remove Connection with the Command Palette
+      :tabid: remove-connection-command-palette
+
+      .. include:: /includes/steps/remove-connection-command-palette.rst
+
+   .. tab:: Remove Connection from the MongoDB View
+      :tabid: remove-connection-mdb-view
+
+      .. include:: /includes/steps/remove-connection-mdb-view.rst

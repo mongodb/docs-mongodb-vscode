@@ -1,6 +1,6 @@
 ---
 source:
-  file: steps-open-command-palette.yaml
+  file: steps-source-command-palette.yaml
   ref: vsce-command-palette
 ref: vsce-connect-command-palette
 ---

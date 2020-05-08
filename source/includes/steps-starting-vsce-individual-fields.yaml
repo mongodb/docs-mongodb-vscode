@@ -1,18 +1,37 @@
 ---
-title: Open the individual connection fields view.
+ref: nav-to-mdb-view
+source:
+  file: steps-open-mongodb-view.yaml
+  ref: open-mongodb-view
+---
+title: Create a connection to a deployment.
 level: 4
-ref: open-field-view
+ref: create-connection
 content: |
-  To manually fill in individual connection fields, click
-  :guilabel:`Fill in connection fields individually`:
+  If you have no connections, click :guilabel:`Add Connection`.
 
-  .. figure:: /images/compass/fill-connection-fields.png
-     :figwidth: 690px
+  If you have at least one connection, but you want to add another one,
+  choose one of the following:
+
+  - Click the :guilabel:`Add MongoDB Connection` icon.
+
+  - Expand the :guilabel:`More Actions` menu (:guilabel:`...`), then 
+    click :guilabel:`Add MongoDB Connection`.
 
 ---
 title: Enter your connection information.
-ref: compass-enter-connection-info
+ref: vsce-enter-connection-info
 content: |
+
+  .. note::
+
+     If you want to connect to your deployment using a connection
+     string, click :guilabel:` connect with a connection string`, then 
+     paste your connection string into the Command Palette. 
+
+     For more information, see the **Paste Connection String** tab in 
+     :ref:`vsce-connect-task`.
+
   The :guilabel:`Hostname` dialog contains the following connection
   field options:
 
@@ -128,33 +147,6 @@ content: |
                  For more information on the ``SCRAM``
                  authentication mechanism, see :manual:`SCRAM
                  </manual/core/security-scram/>`.
-
-#             - id: kerberos
-#               name: Kerberos
-#               content: |
-#
-#                 .. important::
-#
-#                     :guilabel:`Kerberos` Authentication is not
-#                     available in Compass Community Edition.
-#
-#                 Select :guilabel:`Kerberos` if the deployment uses
-#                 :manual:`Kerberos </core/kerberos/>` as
-#                 its authentication mechanism. If selected, you must
-#                 provide the :manual:`Principal </core/kerberos/#principals>`
-#                 and :guilabel:`Service Name` to authenticate the user. 
-#                 Leave the :guilabel:`Password` field blank. 
-#
-#                 You can also direct |vsce| to
-#                 :guilabel:`Canonicalize the Host Name` by setting the
-#                 corresponding toggle. When you enable this setting,
-#                 Kerberos uses the canonicalized form of the
-#                 host name (``cname``) when constructing the principal
-#                 for |vsce|.
-#
-#                 For more information on principal name
-#                 canonicalization in Kerberos, see `this RFC document
-#                 <https://tools.ietf.org/html/rfc6806.html>`__.
 
              - id: ldap
                name: LDAP
@@ -406,19 +398,8 @@ content: |
            tunnel. |vsce| cannot establish a connection
            to multiple servers across the same SSH tunnel.
 ---
-title: Connect.
-level: 4
-ref: compass-connect
-content: |
-   Click the :guilabel:`Connect` button to navigate to the
-   |vsce| :doc:`Home Page </instance>`.
-
-   .. admonition:: Required Access
-      :class: important
-
-      Once you are connected to your MongoDB deployment, you may
-      require specific :manual:`user roles <reference/built-in-roles/>`
-      to access various |vsce| features. For more information
-      on the required roles for |vsce| features, see
-      :ref:`required-access`.
+ref: vsce-connect-details-save
+source:
+  file: steps-source-command-palette.yaml
+  ref: vsce-connect-save
 ...
