@@ -1,8 +1,8 @@
 .. _vsce-delete-doc-playground:
 
-========================================
-Delete Documents in a MongoDB Playground
-========================================
+================
+Delete Documents
+================
 
 .. default-domain:: mongodb
 
