@@ -5,3 +5,110 @@
 ===============
 
 .. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+This document lists the VS Code commands available for
+|vsce|. To open the Command Palette and execute these commands:
+
+.. include:: /includes/list-tables/command-palette-options.rst
+
+Connection Commands
+-------------------
+
+Use these commands to manage connections to your MongoDB deployments.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+
+   * - Command
+     - Description
+
+   * - ``Connect``
+     - Connect to your MongoDB deployment by filling in your connection
+       information in the connection dialog. To learn more about
+       connecting to a deployment, see :ref:`vsce-connect`.
+
+   * - ``Connect with Connection String``
+     - Connect to your MongoDB deployment by pasting your connection
+       string directly into the command palette. To learn more about
+       connecting to a deployment, see :ref:`vsce-connect`.
+
+   * - ``Disconnect``
+     - If you are currently connected to a MongoDB deployment,
+       disconnect from that deployment.
+
+   * - ``Remove Connection``
+     - Remove the selected connection from your list of connections
+       in |vsce|.
+
+.. note::
+
+   You can only have one active connection to a MongoDB
+   deployment open at a time.
+
+Shell Commands
+--------------
+
+Use this command to open a MongoDB Shell connected to your deployment.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+
+   * - Command
+     - Description
+
+   * - ``Launch MongoDB Shell``
+     - Open the VS Code :guilabel:`Terminal` and automatically connect
+       the MongoDB shell to the deployment where |vsce| is connected.
+
+Playground Commands
+-------------------
+
+Use these commands to create and run
+:ref:`playgrounds <vsce-playgrounds>`.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+
+   * - Command
+     - Description
+
+   * - ``Create MongoDB Playground``
+     - Create a new playground to run against your MongoDB deployment.
+
+       By default, playgrounds load with a template containing
+       sample commands. You can disable this template from your
+       :ref:`extension settings <vsce-settings>`.
+
+   * - ``Run All From Playground``
+     - Run file you are currently viewing in VS Code as a playground.
+       |vsce| outputs the results of your playground in the
+       :guilabel:`Output` view in VS Code.
+
+MongoDB View Commands
+---------------------
+
+Use these commands to manage the |vsce| view in the left navigation
+panel.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
+
+   * - Command
+     - Description
+
+   * - ``Focus on MongoDB View``
+     - Open the |vsce| view and change the focus of VS Code to
+       the extension.
+
+   * - ``Show MongoDB``
+     - If |vsce| is hidden from your extension view, show it.
