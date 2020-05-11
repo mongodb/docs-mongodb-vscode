@@ -12,16 +12,14 @@ Update Documents in a MongoDB Playground
    :depth: 1
    :class: singlecol
 
-.. |crud-operation| replace:: update
-
 You can update documents in a collection using the 
 :manual:`MongoDB CRUD Operators </crud>` in a MongoDB Playground:
 
 - Use the :manual:`updateOne() 
-  </reference/method/db.collection.updateOne>` method to insert one
+  </reference/method/db.collection.updateOne>` method to update one
   document.
 - Use the :manual:`updateMany() 
-  </reference/method/db.collection.updateMany>` method to insert more 
+  </reference/method/db.collection.updateMany>` method to update more 
   than one document.
 
 Prerequisites
@@ -35,7 +33,8 @@ prerequisites before you can update documents with a MongoDB Playground:
 - :ref:`Activate the connection to the MongoDB deployment 
   <vsce-activate-connection>`.
 - :ref:`Open a MongoDB Playground <open-playground-for-crud-vsce>`.
-- :ref:`vsce-create-doc-playground`.
+- :ref:`vsce-create-doc-playground or create documents in a collection
+  using a different method.`.
 
 Update One Document
 -------------------
@@ -96,8 +95,10 @@ Code:
      insertedId: null
    }
 
-Create Many Documents
+Update Many Documents
 ---------------------
+
+To update many documents, use the following syntax in your Playground:
 
 .. code-block:: javascript
 

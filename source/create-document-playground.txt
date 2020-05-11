@@ -12,8 +12,6 @@ Create Documents in a MongoDB Playground
    :depth: 1
    :class: singlecol
 
-.. |crud-operation| replace:: create
-
 You can create documents in a collection using the 
 :manual:`MongoDB CRUD Operators </crud>` in a MongoDB Playground:
 
@@ -71,7 +69,6 @@ The following example:
 #. Inserts eight documents into the ``test.sales`` collection.
 
 .. code-block:: javascript
-   :linenos:
    :copyable: false
 
    use("test");
@@ -94,6 +91,8 @@ Code:
 
 Create Many Documents
 ---------------------
+
+To create many documents, use the following syntax in your Playground:
 
 .. code-block:: javascript
 
@@ -126,7 +125,6 @@ The following example:
 #. Inserts eight documents into the ``test.sales`` collection.
 
 .. code-block:: javascript
-   :linenos:
    :copyable: false
 
    use("test");
