@@ -1,3 +1,5 @@
+.. _vsce-reference:
+
 =========
 Reference
 =========

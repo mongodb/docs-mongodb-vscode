@@ -1,8 +1,8 @@
 .. _vsce-settings:
 
-============================
-MongoDB for VS Code Settings
-============================
+===============
+|vsce| Settings
+===============
 
 .. default-domain:: mongodb
 
@@ -18,7 +18,7 @@ MongoDB for VS Code Settings
 Configure Settings
 ------------------
 
-To configure MongoDB for VS code settings:
+To configure |vsce| settings:
 
 .. include:: /includes/steps/configure-settings.rst
 
@@ -27,49 +27,65 @@ Settings
 >>>>>>> Add config procedure
 
 The following table lists the available settings for 
-MongoDB for VS Code:
+|vsce|:
 
 .. list-table::
    :header-rows: 1
    
    * - Setting
      - Description
+     - Default
 
    * - :guilabel:`Shell`
-     - MongoDB shell to use. Defaults to ``mongo``.
+     - MongoDB shell to use.
+     - ``mongo``
 
    * - :guilabel:`Show`
      - If checked, shows the MongoDB view in the Visual Studio Code 
        left navigation panel.
+     - Checked
 
    * - :guilabel:`Max Number of Problems`
-     - The maximum number of problems MongoDB for VS Code will generate 
+     - The maximum number of problems |vsce| will generate 
        in the Visual Studio Code :guilabel:`Problems` view.
+     - ``100``
+
+   * - :guilabel:`Server`
+     - Editable through the ``mongodbLanguageServer.trace.server`` 
+       property in ``settings.json``.
+     - None
 
    * - :guilabel:`Confirm Run All`
      - If checked, shows a confirmation message before running 
        commands in a playground.
+     - Checked
 
-   * - :guilabel:`Connection Saving: Default Connection Saving Location`
-     - Sets if and where new connections are saved. Defaults to 
-       ``Global``.
+   * - :guilabel:`Default Connection Saving Location`
+     - Sets if and where new connections are saved.
+     - ``Global``
 
-   * - :guilabel:`Connection Saving: Hide Option To Choose Where To Save New Connections`
+   * - :guilabel:`Hide Option To Choose Where To Save New Connections`
      - If unchecked, you are prompted to choose where to save each new 
        connection. 
        
        If checked, new connections are automatically saved to the 
        :guilabel:`Default Connection Saving Location` without prompt.
+     - Checked
 
    * - :guilabel:`Default Limit`
      - Number of documents to fetch when viewing documents from a 
        collection.
+     - ``10``
 
    * - :guilabel:`Send Telemetry`
      - If checked, allows the collection of anonymous diagnostic and 
-       usage telemetry data to help improve MongoDB for VS Code.
+       usage telemetry data to help improve |vsce|.
+     - Checked
 
    * - :guilabel:`Use Default Template For Playground`
-     - If checked, playground files use the default template.
+     - If checked, playground files load with a template containing 
+       sample commands.
 
-       If unchecked, playground files use an empty playground editor.
+       If unchecked, playground files load with an empty playground 
+       editor.
+     - Checked
