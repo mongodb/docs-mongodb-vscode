@@ -37,7 +37,12 @@ The following table lists the available settings for
      - Default
 
    * - :guilabel:`Shell`
-     - MongoDB shell to use.
+     - MongoDB shell to use. Choose either:
+       
+       - ``mongo`` (the legacy MongoDB shell), or
+
+       - ``mongosh`` (the new MongoDB shell).
+
      - ``mongo``
 
    * - :guilabel:`Show`
@@ -51,9 +56,14 @@ The following table lists the available settings for
      - ``100``
 
    * - :guilabel:`Server`
-     - Editable through the ``mongodbLanguageServer.trace.server`` 
-       property in ``settings.json``.
-     - None
+     - Language server logging settings. Editable through the 
+       ``mongodbLanguageServer.trace.server`` property in 
+       ``settings.json``. Output logs are viewable with 
+       `https://github.com/Microsoft/language-server-protocol-inspector`__.
+     - ``{
+         "format": "json",
+         "verbosity": "verbose"
+       }``
 
    * - :guilabel:`Confirm Run All`
      - If checked, shows a confirmation message before running 
@@ -74,7 +84,7 @@ The following table lists the available settings for
 
    * - :guilabel:`Default Limit`
      - Number of documents to fetch when viewing documents from a 
-       collection.
+       collection. Does not affect playground operations.
      - ``10``
 
    * - :guilabel:`Send Telemetry`
