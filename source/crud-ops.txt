@@ -51,4 +51,4 @@ MongoDB Playground, you must open one.
       /read-document-playground
       /update-document-playground
       /delete-document-playground
-      /run-agg-pipelines
+
