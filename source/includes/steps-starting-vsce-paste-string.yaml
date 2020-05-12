@@ -55,9 +55,4 @@ content: |
 title: "Press the **Enter** or **Return** key."
 level: 4
 ref: vsce-connect-enter
----
-ref: vsce-connect-string-save
-source:
-  file: steps-source-command-palette.yaml
-  ref: vsce-connect-save
 ...

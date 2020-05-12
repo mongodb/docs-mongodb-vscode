@@ -422,9 +422,4 @@ content: |
 ref: vsce-click-connect
 level: 4
 title: "Click :guilabel:`Connect`."
----
-ref: vsce-connect-details-save
-source:
-  file: steps-source-command-palette.yaml
-  ref: vsce-connect-save
 ...
