@@ -17,10 +17,24 @@ This document lists the VS Code commands available for
 
 .. include:: /includes/list-tables/command-palette-options.rst
 
+.. include:: /includes/admonitions/tip-mongodb-command-palette.rst
+
 Connection Commands
 -------------------
 
-Use these commands to manage connections to your MongoDB deployments.
+Run these commands from the Command Palette to create new connections or
+manage existing connections to your MongoDB deployments.
+
+Configuring a new connection adds a new entry to your
+:guilabel:`Connections` list in the |vsce| view. Select a connection
+from the list to activate that connection.
+
+To learn more about connecting to a deployment, see :ref:`vsce-connect`.
+
+.. note::
+
+   You can configure multiple connections, but only have one *active*
+   connection open at a time.
 
 .. list-table::
    :header-rows: 1
@@ -29,33 +43,49 @@ Use these commands to manage connections to your MongoDB deployments.
    * - Command
      - Description
 
-   * - ``Connect``
+   * - :ref:`Connect <vsce-cmd-connect>`
+
+       .. _vsce-cmd-connect:
+
      - Connect to your MongoDB deployment by filling in your connection
-       information in the connection dialog. To learn more about
-       connecting to a deployment, see :ref:`vsce-connect`.
+       information in the connection dialog.
 
-   * - ``Connect with Connection String``
-     - Connect to your MongoDB deployment by pasting your connection
-       string directly into the command palette. To learn more about
-       connecting to a deployment, see :ref:`vsce-connect`.
+   * - :ref:`Connect with Connection String <vsce-cmd-connect-string>`
 
-   * - ``Disconnect``
-     - If you are currently connected to a MongoDB deployment,
-       disconnect from that deployment.
+       .. _vsce-cmd-connect-string:
 
-   * - ``Remove Connection``
-     - Remove the selected connection from your list of connections
+     - Connect to your MongoDB deployment by pasting your 
+       :manual:`connection string URI </reference/connection-string/>`
+       directly into the command palette. Connecting to a deployment
+       adds a new entry to your :guilabel:`Connections` list in the
+       |vsce| view.
+
+       |service| provides a connection string for your clusters which
+       you can pass into this command.
+
+   * - :ref:`Disconnect <vsce-cmd-disconnect>`
+
+       .. _vsce-cmd-disconnect:
+
+     - Disconnect from your active deployment connection.
+
+   * - :ref:`Remove Connection <vsce-cmd-remove-connection>`
+
+       .. _vsce-cmd-remove-connection:
+
+     - Select and remove a connection from your list of connections
        in |vsce|.
 
-.. note::
+       .. note::
 
-   You can only have one active connection to a MongoDB
-   deployment open at a time.
+          Removing your current active connection also closes that
+          connection.
 
 Shell Commands
 --------------
 
-Use this command to open a MongoDB Shell connected to your deployment.
+Run this command from the Command Palette to open a MongoDB Shell
+connected to your deployment.
 
 .. list-table::
    :header-rows: 1
@@ -64,14 +94,32 @@ Use this command to open a MongoDB Shell connected to your deployment.
    * - Command
      - Description
 
-   * - ``Launch MongoDB Shell``
-     - Open the VS Code :guilabel:`Terminal` and automatically connect
-       the MongoDB shell to the deployment where |vsce| is connected.
+   * - :ref:`Launch MongoDB Shell <vsce-cmd-launch-shell>`
+
+       .. _vsce-cmd-launch-shell:
+
+     - .. important::
+
+          This command is not supported on Windows.
+     
+       Open the VS Code :guilabel:`Terminal` and automatically connect a
+       MongoDB shell to the deployment specified in your active
+       connection.
+       
+       Specify the MongoDB shell to use in the ``mdb.shell``
+       :ref:`setting <vsce-settings>`. |vsce| supports the following
+       shells:
+
+       - Legacy :binary:`~mongo` shell
+       - ``mongosh`` shell.
+
+       To learn how to install the legacy :binary:`~mongo` shell, see
+       :manual:`Instal MongoDB </installation>`.
 
 Playground Commands
 -------------------
 
-Use these commands to create and run
+Run these commands from the Command Palette to create and run
 :ref:`playgrounds <vsce-playgrounds>`.
 
 .. list-table::
@@ -81,23 +129,32 @@ Use these commands to create and run
    * - Command
      - Description
 
-   * - ``Create MongoDB Playground``
+   * - :ref:`Create MongoDB Playground <vsce-cmd-playground-create>`
+
+       .. _vsce-command-playground-create:
+
      - Create a new playground to run against your MongoDB deployment.
 
        By default, playgrounds load with a template containing
        sample commands. You can disable this template from your
        :ref:`extension settings <vsce-settings>`.
 
-   * - ``Run All From Playground``
+   * - :ref:`Run All From Playground <vsce-cmd-playground-run>`
+
+       .. _vsce-command-playground-run:
+
      - Run file you are currently viewing in VS Code as a playground.
+       Your playground runs against the deployment specified in your
+       active connection.
+       
        |vsce| outputs the results of your playground in the
        :guilabel:`Output` view in VS Code.
 
-MongoDB View Commands
----------------------
+|vsce| View Commands
+--------------------
 
-Use these commands to manage the |vsce| view in the left navigation
-panel.
+Run these commands from the Command Palette to manage the |vsce| view in
+the left navigation panel.
 
 .. list-table::
    :header-rows: 1
@@ -106,9 +163,14 @@ panel.
    * - Command
      - Description
 
-   * - ``Focus on MongoDB View``
-     - Open the |vsce| view and change the focus of VS Code to
-       the extension.
+   * - :ref:`Focus on MongoDB View <vsce-cmd-focus>`
 
-   * - ``Show MongoDB``
+       .. _vsce-cmd-focus:
+
+     - Open and focus on the |vsce| view.
+
+   * - :ref:`Show MongoDB <vsce-cmd-show>`
+
+       .. _vsce-cmd-show:
+
      - If |vsce| is hidden from your extension view, show it.
