@@ -6,14 +6,13 @@
 
 .. default-domain:: mongodb
 
-<<<<<<< HEAD
-.. include:: /includes/fact-vsce-preview.rst
-=======
 .. contents:: On this page
    :local:
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+.. include:: includes/fact-vsce-preview.rst
 
 Configure Settings
 ------------------
@@ -24,7 +23,6 @@ To configure |vsce| settings:
 
 Settings
 --------
->>>>>>> Add config procedure
 
 The following table lists the available settings for 
 |vsce|:
@@ -92,7 +90,7 @@ The following table lists the available settings for
 
        You can select:
        
-       .. include:: /includes/connection-saving-locations.rst
+       .. include:: /includes/connection-location-table.rst
 
      - ``Global``
 
