@@ -48,6 +48,11 @@ To read one document, use the following syntax in your Playground:
       { <projection> }
    )
 
+If multiple documents satisfy the query, this method returns the first
+document according to the
+:manual:`natural order </reference/glossary/#term-natural-order>` which
+reflects the order of documents on the disk.
+
 For a detailed description of this method's parameters,
 see :manual:`findOne() </reference/method/db.collection.findOne>`
 in the MongoDB Manual.

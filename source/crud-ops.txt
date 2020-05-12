@@ -21,7 +21,7 @@ You can use a MongoDB Playground to perform CRUD (create, read, update,
 and delete) operations on documents in a collection on a 
 :doc:`connected deployment </connect>`.
 
-You use the :manual:`MongoDB CRUD Operators </crud>` and 
+Use the :manual:`MongoDB CRUD Operators </crud>` and 
 :manual:`shell methods </reference/method>` to interact with your 
 databases in MongoDB Playgrounds.
 
@@ -51,4 +51,3 @@ MongoDB Playground, you must open one.
       /read-document-playground
       /update-document-playground
       /delete-document-playground
-
