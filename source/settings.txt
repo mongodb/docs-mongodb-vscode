@@ -42,14 +42,14 @@ The following table lists the available settings for
        
        - ``mongo`` (the legacy MongoDB shell), or
 
-       - ``mongosh`` (the new MongoDB shell).
+       - ``mongosh`` (the new MongoDB shell)
 
      - ``mongo``
 
    * - :guilabel:`Show`
-     - If checked, shows the MongoDB view in the Visual Studio Code 
+     - If enabled, shows the MongoDB view in the Visual Studio Code 
        left navigation panel.
-     - Checked
+     - Enabled
 
    * - :guilabel:`Max Number of Problems`
      - The maximum number of problems |vsce| will generate 
@@ -75,27 +75,29 @@ The following table lists the available settings for
        :guilabel:`Output` view, or with the 
        `Language Server Protocol Inspector <https://github.com/Microsoft/language-server-protocol-inspector>`__.
 
-     - ``{``
-         ``"format": "json",``
-         ``"verbosity": "verbose"``
-       ``}``
+     - .. code-block:: json
+     
+          {
+            "format": "json",
+            "verbosity": "verbose"
+          }
 
    * - :guilabel:`Confirm Run All`
-     - If checked, shows a confirmation message before running 
+     - If enabled, shows a confirmation message before running 
        commands in a playground.
-     - Checked
+     - Enabled
 
    * - :guilabel:`Default Connection Saving Location`
      - Sets if and where new connections are saved.
      - ``Global``
 
    * - :guilabel:`Hide Option To Choose Where To Save New Connections`
-     - If unchecked, you are prompted to choose where to save each new 
+     - If disabled, you are prompted to choose where to save each new 
        connection. 
        
-       If checked, new connections are automatically saved to the 
+       If enabled, new connections are automatically saved to the 
        :guilabel:`Default Connection Saving Location` without prompt.
-     - Checked
+     - Enabled
 
    * - :guilabel:`Default Limit`
      - Number of documents to fetch when viewing documents from a 
@@ -103,14 +105,14 @@ The following table lists the available settings for
      - ``10``
 
    * - :guilabel:`Send Telemetry`
-     - If checked, allows the collection of anonymous diagnostic and 
+     - If enabled, allows the collection of anonymous diagnostic and 
        usage telemetry data to help improve |vsce|.
-     - Checked
+     - Enabled
 
    * - :guilabel:`Use Default Template For Playground`
-     - If checked, playground files load with a template containing 
+     - If enabled, playground files load with a template containing 
        sample commands.
 
-       If unchecked, playground files load with an empty playground 
+       If disabled, playground files load with an empty playground 
        editor.
-     - Checked
+     - Enabled
