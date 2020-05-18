@@ -102,7 +102,7 @@ deployment from which you were disconnected:
 
 .. include:: /includes/steps/activate-connection.rst
 
-.._vsce-rename-connection:
+.. _vsce-rename-connection:
 
 Rename a Connection
 -------------------
