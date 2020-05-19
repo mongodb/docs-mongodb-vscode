@@ -26,6 +26,8 @@ Features
 
 You can use MongoDB for |vscode-short| to:
 
+- :ref:`vsce-create-cluster-terraform`.
+
 - :ref:`Connect to a MongoDB Cluster <vsce-connect>`.
 
   - Once you connect to a cluster, you can launch the
@@ -48,6 +50,9 @@ Learn More
 
 :doc:`/install`
   Install |vsce| from the VS Code Marketplace.
+
+:doc:`/create-cluster-terraform`
+  Create a Shared Tier |service| cluster using a Terraform template included with |vsce|.
 
 :doc:`/connect`
   Connect to your deployment using |vsce|.
@@ -72,6 +77,7 @@ Learn More
       :titlesonly:
 
       /install
+      /create-cluster-terraform
       /connect
       /databases-collections
       /playgrounds
