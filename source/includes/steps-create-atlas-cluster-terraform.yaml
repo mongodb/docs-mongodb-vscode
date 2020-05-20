@@ -55,7 +55,7 @@ content: |
      complete.
 
   The following output indicates that your |service| cluster is created.
-  You can :ref:`create a connection <vsce-connect-task>`to this 
+  You can :ref:`create a connection <vsce-connect-task>` to this 
   deployment using the |vsce| with the displayed connection strings: 
 
   .. literalinclude:: /includes/terraform-apply-output.sh

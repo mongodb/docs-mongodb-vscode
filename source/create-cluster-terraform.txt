@@ -15,7 +15,8 @@ Create an |service| Cluster from a Template using Terraform
 .. include:: /includes/fact-vsce-preview.rst
 
 This page outlines how to use the |service| template for Terraform files
-included with the |vsce| to create Shared Tier |service| clusters.
+included with the MongoDB Extension for |vscode-short| to create 
+Shared Tier |service| clusters.
 
 After loading the template, you configure the cluster and provide 
 details about your |service| account. You then use Terraform
@@ -25,12 +26,12 @@ Prerequisites
 -------------
 
 Before you use the |service| template for Terraform files
-included with the |vsce|, you must:
+included with the MongoDB Extension for |vscode-short|, you must:
 
 - :ref:`vsce-install`
 - `Install Terraform
   <https://learn.hashicorp.com/terraform/getting-started/install.html>`__ 
-- Have an |service| account.
+- Have an :atlas:`Atlas account</tutorial/create-atlas-account/>`.
 - Have an :atlas:`Atlas organization </tutorial/manage-organizations/>`.
 - Have an :atlas:`API key in an organization
   </tutorial/manage-programmatic-access/>` with the 

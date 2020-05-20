@@ -6,7 +6,7 @@ content: |
 
   .. list-table::
      :header-rows: 1
-     :widths: 33 33 34
+     :widths: 33 33 33
 
      * - Operating System
        - Method
@@ -25,7 +25,7 @@ content: |
        - Press ``Control`` + ``N``
 
 ---
-title: "Save the file to a new directory. Name the file ``main.tf``"
+title: "Save the file. Name it ``main.tf``."
 ref: change-language
 level: 4
 content: |
@@ -41,12 +41,10 @@ ref: bootstrap-atlas
 level: 4
 content: |
 
-  This populates the ``main.tf`` file with an example configuration 
-  using the `MongoDB Atlas
+  The MongoDB Extension for VSCode populates the file with an example 
+  configuration using the `MongoDB Atlas
   <https://www.terraform.io/docs/providers/mongodbatlas/index.html>`__ 
   Terraform provider to create a Shared Tier |service| cluster. 
-
-  Update the example configuration to configure your cluster.
 
 ---
 title: "Update the |service| Terraform configuration to configure your cluster."
@@ -54,46 +52,45 @@ level: 4
 ref: update-config
 content: |
 
-  The value of the ``name`` argument of the ``mongodbatlas_project``
-  resource named ``my_project`` gains focus.
+  The cursor moves to select the value of the ``name`` argument of the 
+  ``mongodbatlas_project`` resource.
 
   Provide values for the following arguments to configure your cluster:
 
   .. tip::
 
-     Press the **Tab** key to change the focus to the next argument in 
+     Press the **Tab** key to select to the next argument in 
      the template that you should update.
 
   .. list-table::
      :header-rows: 1
-     :widths: 33 33 34
+     :widths: 33 33 33
 
-     * - Resource
-       - Attribute
+     * - Attribute
        - Value
 
-     * - ``mongodbatlas_project``
-       - ``name``
+     * - | ``mongodbatlas_project``
+         | ``.name``
        - Name of the |service| project that this configuration creates.
 
-     * - ``mongodbatlas_cluster``
-       - ``name``
+     * - | ``mongodbatlas_cluster``
+         | ``.name``
        - Name of the |service| cluster that this configuration creates.
 
-     * - ``mongodbatlas_cluster``
-       - ``backing_provider_name``
+     * - | ``mongodbatlas_cluster``
+         | ``.backing_provider_name``
        - Provider on which the |service| cluster that this configuration 
-         creates is hosted. Choose one of the accepted values:
+         creates is hosted. Choose one of the following accepted values:
 
          - ``AWS``
          - ``AZURE``
          - ``GCP``
 
-     * - ``mongodbatlas_cluster``
-       - ``provider_region_name``
+     * - | ``mongodbatlas_cluster``
+         | ``.provider_region_name``
        - Region to which the |service| cluster that this configuration 
          creates is deployed. Ensure that the region you chose supports
-        |service| clusters of the instance size you want to deploy.
+         |service| clusters of the instance size you want to deploy.
 
          By default the template provisions Shared Tier clusters: 
          ``M2`` and ``M5``. 
@@ -106,8 +103,8 @@ content: |
          - :atlas:`Google Cloud Platform </reference/google-gcp/>`
          - :atlas:`Microsoft Azure </reference/microsoft-azure/>`
 
-     * - ``mongodbatlas_cluster``
-       - ``provider_instance_size_name``
+     * - | ``mongodbatlas_cluster``
+         | ``.provider_instance_size_name``
        - Instance size of the |service| cluster that this configuration
          creates.
 
@@ -126,8 +123,8 @@ content: |
          - :atlas:`Google Cloud Platform </reference/google-gcp/>`
          - :atlas:`Microsoft Azure </reference/microsoft-azure/>`
 
-     * - ``mongodbatlas_cluster``
-       - ``disk_size_gbs``
+     * - | ``mongodbatlas_cluster``
+         | ``.disk_size_gbs``
        - Disk size of the |service| cluster that this configuration
          creates. Ensure that you provide a value that is equal to or 
          less than the maximum disk size for the instance size you 
@@ -186,38 +183,41 @@ content: |
        - IP address or CIDR block from which your |service| cluster is
          accessible.
 
-  To maximize security, consider taking the following steps: 
+  .. admonition:: Use an Input Variables File to Maximize security
+     :class: admonition-example
 
-  a. Define the ``local`` variables in an `input variables
-     <https://learn.hashicorp.com/terraform/getting-started/variables.html>`__
-     file.
+     To maximize security, consider taking the following steps: 
 
-     .. example::
+     a. Define the ``local`` variables in an `input variables
+        <https://learn.hashicorp.com/terraform/getting-started/variables.html>`__
+        file.
 
-        .. code-block:: none
+        .. example::
 
-           variable "mongodb_atlas_api_pub_key" {
-             default = "my-public-key"
-           }
+           .. code-block:: none
 
-           variable "mongodb_atlas_api_pri_key" {
-             default = "my-private-key"
-           }
+              variable "mongodb_atlas_api_pub_key" {
+                default = "my-public-key"
+              }
 
-  #. Exclude the input variables file from your repository. For
-     example, add the filename to the ``.gitignore`` file for your
-     repository.
-  #. Reference variables from the input variables file in the
-     ``main.tf`` file by prefacing them with ``vars.``.
+              variable "mongodb_atlas_api_pri_key" {
+                default = "my-private-key"
+              }
 
-     .. example:: 
+     #. Exclude the input variables file from your repository. For
+        example, add the filename to the ``.gitignore`` file for your
+        repository.
+     #. Reference variables from the input variables file in the
+        ``main.tf`` file by prefacing them with ``vars.``.
 
-        .. code-block:: none
+        .. example:: 
 
-           provider "mongodbatlas" {
-             public_key  = vars.mongodb_atlas_api_pub_key
-             private_key = vars.mongodb_atlas_api_pri_key
-           }
+           .. code-block:: none
+
+              provider "mongodbatlas" {
+                public_key  = vars.mongodb_atlas_api_pub_key
+                private_key = vars.mongodb_atlas_api_pri_key
+              }
 ---
 title: "Add optional configuration options to the ``main.tf`` file."
 level: 4
@@ -233,7 +233,7 @@ content: |
      Shared Tier |service| clusters don't support all configurations 
      available with the MongoDB Atlas Terraform provider. For a list of 
      unsupported configurations, see the :atlas:`Atlas documentation
-     </reference/free-shared-limitations/>.
+     </reference/free-shared-limitations/>`.
 
 ---
 title: "Save the ``main.tf`` file."
