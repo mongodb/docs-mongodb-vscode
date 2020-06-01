@@ -16,23 +16,28 @@ Use ``require()`` to Include External Modules
 
 .. important::
 
-   A complete description of Node.js, modules, and the ``require()``
+   A complete description of Node.js, modules, and the
+   `require() <https://nodejs.org/api/modules.html#modules_require_id>`__
    function is out of scope for this tutorial. To learn more, refer to
    the `Node.js Documentation <https://nodejs.org/api/modules.html>`__.
 
-You can use the ``require()`` function in your MongoDB Playgrounds to
+You can use the
+`require() <https://nodejs.org/api/modules.html#modules_require_id>`__
+function in your MongoDB Playgrounds to
 include modules which exist in separate files.
 
 Require Native Modules
 ----------------------
 
-You can ``require()`` native Node modules (such as ``fs``) in your
+You can ``require()`` native Node modules (such as
+`fs <https://nodejs.org/api/fs.html#fs_file_system>`__) in your
 Playground without any additional setup or configuration.
 
 .. example::
 
-   The following Playground writes a document from the
-   ``test.employees`` collection to a file named ``employee.txt``:
+   The following Playground uses the ``fs`` module to write a document
+   from the ``test.employees`` collection to a file named
+   ``employee.txt``:
 
    .. code-block:: javascript
 
@@ -40,22 +45,24 @@ Playground without any additional setup or configuration.
 
       use("test");
 
-      const document = db.employees.findOne()
+      const document = db.employees.findOne();
 
-      fs.writeFileSync('employee.txt', JSON.stringify(document))
+      fs.writeFileSync('employee.txt', JSON.stringify(document));
 
    .. seealso::
 
-      `fs.writeFileSync
-      <https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options>`__
+      - `fs.writeFileSync
+        <https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options>`__
+
+      - `require()
+        <https://nodejs.org/api/modules.html#modules_require_id>`__
 
 Require Non-Native Modules
 --------------------------
 
 To ``require()`` non-native Node modules (such as those downloaded from
-`npm <https://www.npmjs.com/>`__) you must install the package
-to one of the appropriate VS Code module folders for your operating
-system:
+`npm <https://www.npmjs.com/>`__) you must install the module in one of
+the following folders based on your operating system:
 
 .. list-table::
    :header-rows: 1
@@ -102,6 +109,14 @@ directories, you can ``require()`` that package.
       const moment = require('moment');
       const fs = require('fs');
 
-      const currentDate = moment().format("MMMM Do YYYY");
+      const currentDate = moment().format("MMMM DD YYYY");
 
       fs.writeFileSync('date.txt', currentDate);
+
+   .. seealso::
+
+      - `fs.writeFileSync
+        <https://nodejs.org/api/fs.html#fs_fs_writefilesync_file_data_options>`__
+
+      - `require()
+        <https://nodejs.org/api/modules.html#modules_require_id>`__
