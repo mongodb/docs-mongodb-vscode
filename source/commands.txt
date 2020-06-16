@@ -121,10 +121,10 @@ connected to your deployment.
        .. seealso::
 
           - To install the legacy :binary:`mongo <mongo>`
-          shell, see :manual:`The mongo Shell </mongo>`.
+            shell, see :manual:`The mongo Shell </mongo>`.
 
           - To install the ``mongosh`` shell, see 
-          `Install the MongoDB Shell <https://docs.mongodb.com/mongodb-shell/install>`__.
+            `Install the MongoDB Shell <https://docs.mongodb.com/mongodb-shell/install>`__.
 
 Playground Commands
 -------------------
