@@ -10,11 +10,11 @@
    If you install a new version of your MongoDB shell, update your 
    ``PATH`` variable.
 
-   .. seealso::
+.. seealso::
 
-      - To install the legacy :binary:`mongo <mongo>`
-        shell, see :manual:`The mongo Shell </mongo>`.
+   - To install the legacy :binary:`mongo <mongo>`
+     shell, see :manual:`The mongo Shell </mongo>`.
 
-      - To install the ``mongosh`` shell and for instructions on 
-        configuring your ``PATH`` variable, see 
-        `Install the MongoDB Shell <https://docs.mongodb.com/mongodb-shell/install>`__.
+   - To install the ``mongosh`` shell and for instructions on 
+     configuring your ``PATH`` variable, see 
+     `Install the MongoDB Shell <https://docs.mongodb.com/mongodb-shell/install>`__.
