@@ -116,15 +116,7 @@ connected to your deployment.
        - ``mongosh`` shell.
 
 
-       .. include:: /includes/admonitions/configure-path.rst
-
-       .. seealso::
-
-          - To install the legacy :binary:`mongo <mongo>`
-            shell, see :manual:`The mongo Shell </mongo>`.
-
-          - To install the ``mongosh`` shell, see 
-            `Install the MongoDB Shell <https://docs.mongodb.com/mongodb-shell/install>`__.
+       .. include:: /includes/admonitions/warn-configure-path.rst
 
 Playground Commands
 -------------------
