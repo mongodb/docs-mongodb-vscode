@@ -4,11 +4,11 @@
 
    - Install the shell you want to use, and
 
-   - Configure your machine's ``PATH`` variable to include the filepath 
-     to your shell executable.
+   - Configure your machine's ``PATH`` environment variable to include 
+     the filepath to your shell binary.
 
    If you install a new version of your MongoDB shell, update your 
-   ``PATH`` variable.
+   ``PATH`` variable to reference the new version.
 
 .. seealso::
 
