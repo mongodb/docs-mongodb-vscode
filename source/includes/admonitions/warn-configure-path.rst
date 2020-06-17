@@ -7,8 +7,8 @@
    - Configure your machine's ``PATH`` environment variable to include 
      the filepath to your shell binary.
 
-   If you install a new version of your MongoDB shell, update your 
-   ``PATH`` variable to reference the new version.
+   If you install a new version of your MongoDB shell, you will need to 
+   update your ``PATH`` variable to reference the new version.
 
 .. seealso::
 
