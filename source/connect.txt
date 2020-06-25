@@ -121,10 +121,8 @@ Considerations
   the `MongoDB Shell <https://docs.mongodb.com/mongodb-shell/>`__ or
   legacy :binary:`mongo <mongo>` shell.
 
-- The path to your desired shell must exist in your system's ``PATH``.
-  If the shell specified in your :ref:`settings <vsce-settings>` does
-  not exist in your ``PATH``, |vsce| attempts to use the other shell. If
-  neither shell exists in your ``PATH``, the operation errors.
+- The path to your selected shell must exist in your system's ``PATH``.
+  If it does not exist in your ``PATH``, the operation errors.
 
 Procedure
 `````````
