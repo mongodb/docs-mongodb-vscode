@@ -24,7 +24,7 @@ use the left navigation to:
 - Drop databases and collections.
 
 .. figure:: /images/dbs-colls-docs.png
-  :figwidth: 300px
+  :figwidth: 270px
   :alt: Image showing deployment navigation
 
 .. note::
