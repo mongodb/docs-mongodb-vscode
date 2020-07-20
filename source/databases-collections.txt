@@ -60,7 +60,7 @@ in an array.
 Opening collection documents provides a **read-only** view of your data.
 To modify your data using |vsce|, use a :ref:`JavaScript Playground
 <vsce-crud>` or launch a shell by right-clicking your active deployment
-in the left-side navigation.
+in the MongoDB view in the Activity Bar.
 
 Schema
 ``````
@@ -80,7 +80,7 @@ displays an icon indicating that field's data type.
 Indexes
 ```````
 
-Your collections's indexes appear under the :guilabel:`Indexes` heading.
+Your collections's indexes are listed under the :guilabel:`Indexes` heading.
 When you expand an index, each index key appears with an icon designating
 its type. Index key types include:
 
