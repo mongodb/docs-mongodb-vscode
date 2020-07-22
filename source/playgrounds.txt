@@ -58,9 +58,9 @@ Run Selected Lines of a Playground
 If you select a section of your playground, you may optionally run only
 the selected portion. Your selection can consist of a single line or multiple lines.
 
-When you select a section of your playground, |vsce| shows the
-:guilabel:`Run Selected Lines from Playground` button. Click this button
-to test specific lines or sections of your playground.
+|vsce| shows the :guilabel:`Run Selected Lines from Playground` button
+immediately below your selected section. Click this button to test and
+troubleshoot specific lines or sections of your playground.
 
 Tutorials
 ---------
