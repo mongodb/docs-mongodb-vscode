@@ -45,9 +45,9 @@ Click a collection to view its documents, schema, and indexes.
 Documents
 ``````````
 
-When you expand a collection, that collection's document count is 
-displayed next to the :guilabel:`Documents` item in the left navigation 
-panel.
+When you expand a collection, |vsce| displays that collection's 
+document count next to the :guilabel:`Documents` label in the 
+navigation panel.
 
 When you expand a collection's documents, |vsce| lists the ``_id`` of
 each document in the collection. Click an ``_id`` value to open that
