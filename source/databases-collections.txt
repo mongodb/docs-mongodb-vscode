@@ -66,11 +66,7 @@ To modify your data using |vsce|, use a :ref:`JavaScript Playground
 <vsce-crud>` or launch a shell by right-clicking your active deployment
 in the MongoDB view in the Activity Bar.
 
-.. note::
-
-   You can open a Playground pre-configured for your deployment by 
-   hovering over the :guilabel:`Documents` label in the navigation 
-   panel and clicking the :icon-fa4:`search` icon that appears.
+.. include:: /includes/admonitions/document-search-template.rst
 
 Schema
 ``````
