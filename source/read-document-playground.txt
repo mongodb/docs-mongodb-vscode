@@ -22,6 +22,19 @@ You can read documents in a collection using the
   </reference/method/db.collection.find>` method to read more 
   than one document.
 
+.. _search-documents-template:
+
+Search Templates
+~~~~~~~~~~~~~~~~
+
+A search template is a Playground pre-configured for your deployment, 
+ready to accept :manual:`find() </reference/method/db.collection.find>` 
+and :manual:`sort() </reference/method/db.collection.sort>` arguments.
+
+You can open a new search template by hovering over the 
+:guilabel:`Documents` label in the navigation panel and clicking the 
+:icon-fa4:`search` icon that appears.
+
 Prerequisites
 -------------
 
@@ -35,18 +48,6 @@ prerequisites before you can read documents with a MongoDB Playground:
 - :ref:`Open a MongoDB Playground <open-playground-for-crud-vsce>`.
 - :ref:`vsce-create-doc-playground` or create documents in a collection
   using a different method.
-
-.. _search-documents-template:
-
-Search Templates
-----------------
-
-A search template is a Playground pre-configured for your deployment, 
-ready to accept find and sort arguments.
-
-You can open a new search template by hovering over the 
-:guilabel:`Documents` label in the navigation panel and clicking the 
-:icon-fa4:`search` icon that appears.
 
 Read One Document
 -----------------
