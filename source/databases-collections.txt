@@ -84,11 +84,11 @@ documents and its type is consistent throughout the collection, |vsce|
 displays an icon indicating that field's data type.
 
 Indexes
-```````
+~~~~~~~
 
-Your collections's indexes are listed under the :guilabel:`Indexes` heading.
-When you expand an index, each index key appears with an icon designating
-its type. Index key types include:
+Your collections's indexes are listed under the :guilabel:`Indexes` 
+heading. When you expand an index, each index key appears with an icon 
+designating its type. Index key types include:
 
 - Ascending
 - Descending
