@@ -101,6 +101,13 @@ its type. Index key types include:
    For more information about MongoDB indexes, see the documentation in
    the :manual:`server manual </indexes>`.
 
+.. note::
+
+   You can open a :ref:`JavaScript Playground <vsce-crud>` 
+   pre-configured to create an index by hovering over the 
+   :guilabel:`Indexes` label in the navigation panel and clicking the 
+   :icon-fa4:`plus` icon that appears.
+
 Create a New Database
 ~~~~~~~~~~~~~~~~~~~~~
 
