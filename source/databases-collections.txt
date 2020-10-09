@@ -37,10 +37,10 @@ Databases and Collections
 When you expand an active connection, |vsce| shows the databases in that
 deployment. Click a database to view the collections it contains.
 
+Click a collection to view its documents, schema, and indexes.
+
 View Collection Documents and Schema
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Click a collection to view its documents, schema, and indexes.
 
 Documents
 ``````````
