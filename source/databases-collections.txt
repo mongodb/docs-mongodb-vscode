@@ -83,8 +83,8 @@ appear in that collection's documents. If a field exists in all
 documents and its type is consistent throughout the collection, |vsce|
 displays an icon indicating that field's data type.
 
-Indexes
-~~~~~~~
+Manage Indexes
+~~~~~~~~~~~~~~
 
 Your collections's indexes are listed under the :guilabel:`Indexes` 
 heading. When you expand an index, each index key appears with an icon 
@@ -98,7 +98,7 @@ designating its type. Index key types include:
 
 .. note::
 
-   You can open a :ref:`JavaScript Playground <vsce-crud>` 
+   You can open a :ref:`MongoDB Playground <vsce-crud>` 
    pre-configured to create an index by hovering over the 
    :guilabel:`Indexes` label in the navigation panel and clicking the 
    :icon-fa4:`plus` icon that appears.
