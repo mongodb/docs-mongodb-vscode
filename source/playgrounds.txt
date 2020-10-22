@@ -97,8 +97,8 @@ specify a connection string for the deployment you want to run your
 playground against.
 
 If you have a playground file open in |vscode-short| and do not have
-an active connection, |vsce| displays a
-:guilabel:`Click here to add connection` link at the top of your playground.
+an active connection, |vsce| displays
+:guilabel:`Click here to add connection` at the top of your playground.
 
 .. figure:: /images/vsce-playground-add-connection-btn.png
    :figwidth: 700px
