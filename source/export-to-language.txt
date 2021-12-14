@@ -12,9 +12,10 @@ Export a Query or Pipeline to Language
    :depth: 1
    :class: singlecol
 
-You can export query documents and aggregation pipelines from a
-:ref:`playground <vsce-playgrounds>` to a programming language. You can
-export to:
+You can export and translate query documents and aggregation pipelines
+from a :ref:`playground <vsce-playgrounds>` into a programming language.
+You can export queries and pipelines to one of the following
+languages:
 
 - C# 
 - Java 
@@ -25,20 +26,24 @@ Prerequisites
 -------------
 
 You must open a playground that contains a query document or pipeline
-you want to export. These tutorials use the default playground template.
+you want to export. 
 
-To open a new playground:
+These tutorials use the default playground template.
+
+To open a new playground containing the default template:
 
 .. include:: /includes/steps/open-new-playground.rst
 
 Export a Query Document
 -----------------------
 
+To export a query document:
+
 .. include:: /includes/steps/export-to-language-query.rst
 
 Export an Aggregation Pipeline
 ------------------------------
 
-To export a query document or aggregation pipeline:
+To export an aggregation pipeline:
 
 .. include:: /includes/steps/export-to-language-pipeline.rst
