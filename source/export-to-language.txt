@@ -27,7 +27,7 @@ Prerequisites
 You must open a playground that contains a query document or pipeline
 you want to export. 
 
-These tutorials use the default playground template.
+The tutorials on this page use the default playground template.
 
 To open a new playground containing the default template:
 
