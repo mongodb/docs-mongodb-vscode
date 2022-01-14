@@ -54,3 +54,4 @@ navigation to:
 
    :manual:`Time Series Collections <manual/core/timeseries-collections>` 
    for more information.  
+
