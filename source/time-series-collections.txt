@@ -41,17 +41,18 @@ navigation to:
 #. After running the playground with the time series collection, the left 
    navigation will update the collection icon to identify it is a 
    time series collection.
-
+   
    .. figure:: /images/vsce-time-series-icon.png
-   :figwidth: 600px
+      :figwidth: 400px
+      :alt: Image showing time series icon in VS Code extension
 
-#. To add documents to the time series collection, you can use the 
-   :manual:`insertOne() </reference/method/db.collection.insertOne>` method
-   or the 
-   :manual:`insertMany() </reference/method/db.collection.insertMany>` method.
+To add documents to the time series collection, you can use the 
+:manual:`insertOne() </reference/method/db.collection.insertOne>` method
+or the 
+:manual:`insertMany() </reference/method/db.collection.insertMany>` method.
 
-.. see::
+.. seealso::
 
-   :manual:`Time Series Collections <manual/core/timeseries-collections>` 
+   :manual:`Time Series Collections <manual/core/timeseries-collections/>` 
    for more information.  
 
