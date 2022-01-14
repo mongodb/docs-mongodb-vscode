@@ -1,0 +1,56 @@
+.. _vsce-time-series:
+
+==============================
+Create Time Series Collections
+==============================
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. include:: /includes/fact-vsce-preview.rst
+
+You can create time series collections using the MongoDB Playground. 
+
+Create a time series collection
+-------------------------------
+
+Once you connect your deployment using MongoDB for VS code, use the left 
+navigation to: 
+
+1. Expand an active connection and hover over the database where you want 
+   your collection to exist.
+
+#. Click the :icon-fa5:`plus` icon that appears. 
+
+#. A MongoDB playground automatically opens with a template form to create 
+   both regular collections and time series collections.
+
+#. Save the playground as a ``.mongodb`` file.
+
+#. Delete the regular collection form and uncomment the time series form.
+
+#. Fill in the provided fields accordingly.
+
+#. To run the playground, click the :guilabel:`Play Button` in the top right
+   of the VS code navigation bar.
+
+#. After running the playground with the time series collection, the left 
+   navigation will update the collection icon to identify it is a 
+   time series collection.
+
+   .. figure:: /images/vsce-time-series-icon.png
+   :figwidth: 600px
+
+#. To add documents to the time series collection, you can use the 
+   :manual:`insertOne() </reference/method/db.collection.insertOne>` method
+   or the 
+   :manual:`insertMany() </reference/method/db.collection.insertMany>` method.
+
+.. see::
+
+   :manual:`Time Series Collections <manual/core/timeseries-collections>` 
+   for more information.  
