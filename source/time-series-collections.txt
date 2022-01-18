@@ -69,11 +69,13 @@ time series collection.
 Example
 -------
 
-To use this example, start with a collection template from your MongoDB 
-Playgrounds.
-
 This example creates a time series collection named ``weather`` in the ``test`` 
-database. 
+database.
+
+To use this example, start with a collection template from your MongoDB 
+Playgrounds. Delete the template form for regular collections and keep the 
+template for time series collections found below the regular collection 
+template. 
 
 .. code-block:: javascript
 
@@ -91,23 +93,21 @@ database.
 
 In the example:
 
-- The template form provided by MongoDB Playgrounds has been deleted. 
-
 - ``use('test')`` selects the database where the collection is added to.
 
-- ``"weather"`` assigns the name ``weather`` to the time series collection.
-
-- ``timeseries`` provides fields to create a time series collection.
+- ``timeseries`` specifies fields to create a time series collection.
 
   - ``timeField: "timestamp"`` names the field that contains the dates in 
-    the time series documents, in this case it is "timestamp".
+    the time series documents. In this case, it is ``timestamp``.
 
   - ``granularity: "hours"`` defines the time scale by which the documents
     are stored. 
 
 When you press the :guilabel:`Play Button`, MongoDB for VS Code splits your 
 Playground and outputs the following result in the Playground Results.json 
-pane to confirm the creation of the time series collection.
+pane to confirm the creation of the time series collection. The ``weather`` 
+collection also appears in your collection list, and is marked with the 
+time series icon.
 
 .. code-block:: javascript
 
