@@ -105,12 +105,13 @@ In the example:
 
 When you press the :guilabel:`Play Button`, MongoDB for VS Code splits your 
 Playground and outputs the following result in the Playground Results.json 
-pane to confirm the creation of the time series collection. The ``weather`` 
-collection also appears in your collection list, and is marked with the 
-time series icon.
+pane to confirm the creation of the time series collection. 
 
 .. code-block:: javascript
 
    {
       "ok": 1
    }
+
+The ``weather`` collection also appears in your collection list, and is 
+marked with the time series icon.
