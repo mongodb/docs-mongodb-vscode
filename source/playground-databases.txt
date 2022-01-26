@@ -42,8 +42,8 @@ navigation to:
    a database and a regular collection or a 
    :ref:`time series collection <vsce-time-series>`. 
 
-#. Fill in ``const database`` and ``const collection`` with names of choice 
-   for your database and collection.
+#. Fill in ``const database`` and ``const collection`` with names of your 
+   choice for your database and collection.
 
 #. Uncomment the form of the collection you wish to create.
 
