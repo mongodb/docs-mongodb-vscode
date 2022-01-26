@@ -1,8 +1,8 @@
 .. _vsce-playground-databases:
 
-================================
-Creating Databases & Collections
-================================
+==============================
+Create Databases & Collections
+==============================
 .. default-domain:: mongodb
 
 .. contents:: On this page
@@ -21,7 +21,7 @@ Prerequisites
 -------------
 
 If you have not done so already, you must complete the following 
-prerequisites before you can create a time series collection with a 
+prerequisites before you can create a database or collection with a 
 MongoDB Playground:
 
 - :ref:`Create a connection to a MongoDB deployment 
@@ -42,10 +42,12 @@ navigation to:
    a database and a regular collection or a 
    :ref:`time series collection <vsce-time-series>`. 
 
-#. Fill in the provided fields with the name of your database and collection.
+#. Fill in ``const database`` and ``const collection`` with names of choice 
+   for your database and collection.
 
-#. Uncomment the form of the collection you wish to create and fill in the 
-   provided fields accordingly.
+#. Uncomment the form of the collection you wish to create.
+
+#. Fill in the collection fields according to your collection's specifications.
 
 #. To run the playground, click the :guilabel:`Play Button` at the top right
    of the VS code navigation bar.
@@ -106,3 +108,8 @@ left navigation.
 .. figure:: /images/vsce-database.png
    :figwidth: 200px
    :alt: Image showing database and collection
+
+.. toctree::
+   :titlesonly:
+
+   /time-series-collections
