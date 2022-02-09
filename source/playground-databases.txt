@@ -1,8 +1,8 @@
 .. _vsce-playground-databases:
 
-==============================
-Create Databases & Collections
-==============================
+================================
+Create Databases and Collections
+================================
 .. default-domain:: mongodb
 
 .. contents:: On this page
@@ -43,7 +43,7 @@ navigation to:
    :ref:`time series collection <vsce-time-series>`. 
 
 #. Fill in ``const database`` and ``const collection`` with names of your 
-   choice for your database and collection.
+   database and collection.
 
 #. Uncomment the form of the collection you wish to create.
 
@@ -52,9 +52,9 @@ navigation to:
 #. To run the playground, click the :guilabel:`Play Button` at the top right
    of the VS code navigation bar.
 
-After running the playground, the left navigation will update with new database 
-listed under the active connection it was created. When the new database is 
-expanded the new collection can be found there.
+After running the playground, the left navigation updates with new database 
+listed under the active connection it was created. You can find the newly 
+created collection by expanding the new database.
 
 .. seealso::
 
@@ -68,10 +68,10 @@ Example
 -------
 
 This example creates a database named ``grades`` and a regular collection 
-named ``testscores``
+named ``testscores``.
 
 To use this example, start with a template from your MongoDB 
-Playgrounds. 
+Playgrounds: 
 
 .. code-block:: javascript
 
@@ -90,11 +90,12 @@ In the example:
 
 - ``use(database)`` creates the new ``grades`` database.
 
-- ``db.createCollection(collection)`` creates the collection ``testscores``.
+- ``db.createCollection(collection)`` creates the collection ``testscores``
+  inside of the ``grades`` database.
 
-When you press the :guilabel:`Play Button`, MongoDB for VS Code splits your 
-Playground and outputs the following result in the Playground Results.json 
-pane to confirm the creation of the database and collection.
+When you press the :guilabel:`Play Button`, MongoDB for VS Code shows the 
+following results in the ``Playground Results.json``  pane to confirm the 
+creation of the database and collection.
 
 .. code-block:: javascript
 
@@ -103,7 +104,7 @@ pane to confirm the creation of the database and collection.
    }
 
 The ``grades`` database and ``testscores`` collection also appear in your 
-left navigation. 
+left navigation: 
 
 .. figure:: /images/vsce-database.png
    :figwidth: 200px
