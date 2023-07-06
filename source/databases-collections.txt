@@ -142,7 +142,7 @@ To create a new collection:
 
 #. Hover over the database where you want your collection to exist.
 
-#. Right-click the collection name, and select :guilabel:`Add Collection...`.
+#. Right-click the collection name, and select :guilabel:`Add Collection`.
 
 #. A JavaScript file populates in a new tab with const 
    variables for the ``database`` and ``collection`` name.
