@@ -122,7 +122,7 @@ To create a new database:
 #. Hover over the connection for the deployment where you want your
    database to exist.
 
-#. Click the :icon-fa5:`plus` icon that appears.
+#. Click the  :icon-fa5:`plus`  icon that appears.
 
 #. A JavaScript file populates in a new tab with const 
    variables for the ``database`` and ``collection`` name.
@@ -131,7 +131,7 @@ To create a new database:
 
 #. Update the variable for ``collection`` to your new collection name.
 
-#. Click the white :icon-fa5:`play` button to execute the script.
+#. Click the white  :icon-fa5:`play`  button to execute the script.
 
 #. If the database and collection do not already exist, they are created.
 
@@ -149,7 +149,7 @@ To create a new collection:
 
 #. Update the ``collection`` variable to your new collection name.
 
-#. Click the white :icon-fa5:`play` button to execute the script.
+#. Click the white  :icon-fa5:`play`  button to execute the script.
 
 #. The collection is created in the specified database.
 
