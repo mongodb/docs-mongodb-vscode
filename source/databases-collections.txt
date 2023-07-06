@@ -119,31 +119,39 @@ initial collection.
 
 To create a new database:
 
-1. Hover over the connection for the deployment where you want your
+#. Hover over the connection for the deployment where you want your
    database to exist.
 
 #. Click the :icon-fa5:`plus` icon that appears.
 
-#. In the prompt, enter a name for your new database.
+#. A JavaScript file populates in a new tab with const 
+   variables for the ``database`` and ``collection`` name.
 
-#. Press the enter key.
+#. Update the variable for ``database`` to your new database name.
 
-#. Enter a name for the first collection in your new database.
+#. Update the variable for ``collection`` to your new collection name.
 
-#. Press the enter key.
+#. Click the white :icon-fa5:`play` button to execute the script.
+
+#. If the database and collection do not already exist, they are created.
 
 Create a New Collection
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a new collection:
 
-1. Hover over the database where you want your collection to exist.
+#. Hover over the database where you want your collection to exist.
 
-#. Click the :guilabel:`Plus` icon that appears.
+#. Right-click the collection name, and select :guilabel:`Add Collection...`.
 
-#. In the prompt, enter a name for your new collection.
+#. A JavaScript file populates in a new tab with const 
+   variables for the ``database`` and ``collection`` name.
 
-#. Press the enter key to confirm your new collection.
+#. Update the ``collection`` variable to your new collection name.
+
+#. Click the white :icon-fa5:`play` button to execute the script.
+
+#. The collection is created in the specified database.
 
 Drop a Database or Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
