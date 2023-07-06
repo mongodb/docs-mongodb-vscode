@@ -125,7 +125,7 @@ To create a new database:
 #. Click the :icon-fa5:`plus` icon that appears.
 
 #. A JavaScript file populates in a new tab with const 
-   variables for the ``database`` and ``collection`` name.
+   variables for the ``database`` and ``collection`` names.
 
 #. Update the variable for ``database`` with your new database name.
 
@@ -145,7 +145,7 @@ To create a new collection:
 #. Right-click the collection name, and select :guilabel:`Add Collection`.
 
 #. A JavaScript file populates in a new tab with const 
-   variables for the ``database`` and ``collection`` name.
+   variables for the ``database`` and ``collection`` names.
 
 #. Update the ``collection`` variable with your new collection name.
 
