@@ -135,7 +135,7 @@ Create a New Collection
 
 #. Hover over the database name where you want your collection to exist.
 
-#. Right-click the database name, and select :guilabel:`Add Collection`.
+#. Right-click the database name and select :guilabel:`Add Collection`.
    |vsce| opens a new tab with ``const`` variables for database and 
    collection names.
 
