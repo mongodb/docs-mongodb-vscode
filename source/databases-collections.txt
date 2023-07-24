@@ -127,7 +127,7 @@ initial collection.
 #. Update the ``database`` and ``collection`` variables with 
    the names for your database and collection.
 
-#. Click the white :icon-fa5:`play` button to execute the script.
+#. Click the :icon-fa5:`play` button located at the top right of the playground editor tab to execute the script.
    If the database and collection do not already exist, they are created.
 
 Create a New Collection
