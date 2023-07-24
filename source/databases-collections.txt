@@ -120,15 +120,17 @@ initial collection.
 #. Hover over the connection for the deployment where you want your
    database to exist.
 
-#. Click the :icon-fa5:`plus` icon that appears.
-   |vsce| opens a new tab with ``const`` variables for database and 
+#. Click the :icon-fa5:`plus` icon or right-click and select 
+   :guilabel:`Add Database`. |vsce| opens a new tab with ``const`` 
+   variables for database and 
    collection names.
 
 #. Update the ``database`` and ``collection`` variables with 
    the names for your database and collection.
 
-#. Click the :icon-fa5:`play` button located at the top right of the playground editor tab to execute the script.
-   If the database and collection do not already exist, they are created.
+#. Click the :icon-fa5:`play` button located at the top right of the 
+   tab to execute the script. If the database and collection do not 
+   already exist, they are created.
 
 Create a New Collection
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,8 +143,8 @@ Create a New Collection
 
 #. Update the ``collection`` variable with your new collection name.
 
-#. Click the white :icon-fa5:`play` button to execute the script.
-   The collection is created in the specified database.
+#. Click the :icon-fa5:`play` button located at the top right of the 
+   tab to execute the script. The collection is created in the specified database.
 
 Drop a Database or Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
