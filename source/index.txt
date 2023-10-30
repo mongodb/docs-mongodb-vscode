@@ -26,11 +26,17 @@ Features
 
 You can use MongoDB for |vscode-short| to:
 
-- Explore your MongoDB Data.
+- Explore your MongoDB Data
 
-- Prototype queries and run MongoDB commands.
+- Prototype queries and run MongoDB commands
 
-- Create a Shared Tier |service| cluster using a Terraform template.
+- Create a Shared Tier |service| cluster using a Terraform template
+
+Vale Test
+---------
+
+Here are some sentences that I'm writing to test the vale extension. It
+is an extension that checks for style issues.
 
 Get Started
 -----------
