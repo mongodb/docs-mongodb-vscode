@@ -30,12 +30,12 @@ You can use MongoDB for |vscode-short| to:
 
 - Create a Shared Tier |service| cluster using a Terraform template
 
-Vale Test
----------
+Vale Test copy
+--------------
 
 These are some sentences that I'm writing to test the vale extension. It
 is an extension that checks for style issues. Vale will improve our
-team's workflow.
+team's workflow
 
 Get Started
 -----------
