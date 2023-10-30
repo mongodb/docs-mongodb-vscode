@@ -33,8 +33,9 @@ You can use MongoDB for |vscode-short| to:
 Vale Test
 ---------
 
-Here are some sentences that I'm writing to test the vale extension. It
-is an extension that checks for style issues.
+These are some sentences that I'm writing to test the vale extension. It
+is an extension that checks for style issues. Vale will improve our
+team's workflow.
 
 Get Started
 -----------
