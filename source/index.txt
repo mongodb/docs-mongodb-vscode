@@ -30,15 +30,6 @@ You can use MongoDB for |vscode-short| to:
 
 - Create a Shared Tier |service| cluster using a Terraform template
 
-Vale Test Copy
---------------
-
-- Avoid semicolons; they make sentences hard to understand.
-
-- Don't add suffixes to dates. For example, don't write "November 2nd".
-
-- Obviously, we should avoid words that imply ease of use.
-
 Get Started
 -----------
 
