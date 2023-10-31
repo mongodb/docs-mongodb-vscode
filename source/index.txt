@@ -33,12 +33,13 @@ You can use MongoDB for |vscode-short| to:
 Vale Test Copy
 --------------
 
-These are some sentences that I'm writing to test the vale extension. It
-is an extension that checks for style issues. Vale will improve our
-team's workflow.
+We should avoid semicolons; they make sentences hard to understand.
 
-The server prints the ``appName`` to the MongoDB logs upon establishing
-the connection.
+We will avoid future tense in the docs.
+
+Be mindful of proper date format. Don't use 10/31/2023.
+
+Obviously, we should avoid words that imply ease of use.
 
 Get Started
 -----------
