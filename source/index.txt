@@ -33,13 +33,11 @@ You can use MongoDB for |vscode-short| to:
 Vale Test Copy
 --------------
 
-We should avoid semicolons; they make sentences hard to understand.
+- Avoid semicolons; they make sentences hard to understand.
 
-We will avoid future tense in the docs.
+- Don't add suffixes to dates. For example, don't write "November 2nd".
 
-Be mindful of proper date format. Don't use 10/31/2023.
-
-Obviously, we should avoid words that imply ease of use.
+- Obviously, we should avoid words that imply ease of use.
 
 Get Started
 -----------
