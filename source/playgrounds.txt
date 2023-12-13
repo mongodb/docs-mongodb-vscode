@@ -184,7 +184,7 @@ an active connection, |vsce| displays
          autocompletes only for collection names available on that 
          database. 
          
-   .. step:: Press :guilabel:`Enter`
+   .. step:: Press Enter
 
       After you enter your connection string, a `CodeLens <https://code.visualstudio.com/blogs/2017/02/12/code-lens-roundup>`_
       replaces the :guilabel:`Click here to add connection` link. The 
