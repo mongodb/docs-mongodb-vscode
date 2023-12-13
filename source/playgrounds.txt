@@ -186,9 +186,9 @@ an active connection, |vsce| displays
          
    .. step:: Press :guilabel:`Enter`
 
-      After you enter your connection string, a confirmation message replaces 
-      the :guilabel:`Click here to add connection` link. The confirmation 
-      message includes information on the connected deployment and, if 
+      After you enter your connection string, a `CodeLens <https://code.visualstudio.com/blogs/2017/02/12/code-lens-roundup>`_
+      replaces the :guilabel:`Click here to add connection` link. The 
+      CodeLens includes information on the connected deployment and, if 
       applicable, the current database. 
       
    .. step:: Run your playground
