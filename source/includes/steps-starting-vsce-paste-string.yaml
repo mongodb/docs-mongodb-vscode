@@ -55,7 +55,7 @@ content: |
         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
            and select :guilabel:`Add MongoDB Connection with Connection 
            String...` or click the :guilabel:`Connect` button under 
-           the :guilabel:`Connect with Connection String` header.
+           the :guilabel:`Connect with Connection String` header..
 
            .. figure:: /images/vsce-mongodb-connection-dots.png
               :figwidth: 600px
