@@ -54,7 +54,8 @@ content: |
 
         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
            and select :guilabel:`Add MongoDB Connection with Connection 
-           String...`.
+           String...` or click the :guilabel:`Connect` button under 
+           the :guilabel:`Connect with Connection String` header.
 
            .. figure:: /images/vsce-mongodb-connection-dots.png
               :figwidth: 600px
@@ -85,10 +86,10 @@ content: |
            .. include:: /includes/list-tables/command-palette-options.rst
         
         #. From the Command Palette, select :guilabel:`MongoDB: Connect 
-           with Connection String...`.
+           with Connection String...`
 
            .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
-  
+
 ---
 title: "Paste your connection string into the Command Palette."
 level: 4
