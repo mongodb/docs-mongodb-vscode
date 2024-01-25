@@ -87,6 +87,7 @@ Create a Connection to a Deployment
    the :guilabel:`Default Connection Saving Location`
    :ref:`setting <vsce-settings>`.
 
+
 .. tabs::
 
    .. tab:: :guilabel:`Connect with Connection String`
