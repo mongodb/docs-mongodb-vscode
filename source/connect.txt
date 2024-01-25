@@ -89,7 +89,7 @@ Create a Connection to a Deployment
 
 .. tabs::
 
-   .. tab:: Paste Connection String
+   .. tab:: :guilabel:`Connect with Connection String`
       :tabid: paste-connection-string
 
       When you provide a connection string, |vsce| supports
@@ -99,7 +99,7 @@ Create a Connection to a Deployment
 
       .. include:: /includes/steps/starting-vsce-paste-string.rst
 
-   .. tab:: Fill in Individual Fields
+   .. tab:: :guilabel:`Advanced Connection Settings`
       :tabid: individual-fields
 
       .. include:: /includes/steps/starting-vsce-individual-fields.rst
