@@ -91,7 +91,7 @@ Create a Connection to a Deployment
 .. tabs::
 
    .. tab:: :guilabel:`Connect with Connection String`
-      :tabid: paste-connection-string
+      :tabid: :guilabel:`Connect with Connection String`
 
       When you provide a connection string, |vsce| supports
       most :manual:`Connection String Options
@@ -101,7 +101,7 @@ Create a Connection to a Deployment
       .. include:: /includes/steps/starting-vsce-paste-string.rst
 
    .. tab:: :guilabel:`Advanced Connection Settings`
-      :tabid: individual-fields
+      :tabid: :guilabel:`Advanced Connection Settings`
 
       .. include:: /includes/steps/starting-vsce-individual-fields.rst
 
