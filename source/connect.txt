@@ -58,8 +58,8 @@ Considerations
 
 .. _vsce-connect-task:
 
-Create a Connection to a Deployment
------------------------------------
+Connect to a Deployment
+-----------------------
 
 |vsce| provides two options to connect to your deployment:
 
