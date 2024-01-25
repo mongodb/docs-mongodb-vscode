@@ -83,8 +83,8 @@ Create a Connection to a Deployment
 
 .. note::
 
-   You can define how your connection is saved with the
-   :guilabel:`Default Connection Saving Location`
+   You can define how the connections defined in |vsce| are saved with 
+   the :guilabel:`Default Connection Saving Location`
    :ref:`setting <vsce-settings>`.
 
 .. tabs::
