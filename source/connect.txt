@@ -72,13 +72,13 @@ Create a Connection to a Deployment
 
    * - :guilabel:`Connect with Connection String`
      - This method is a faster and easier than 
-       filling using the advanced connection settings. Use this option 
+       using the advanced connection settings. Use this option 
        if |service| hosts your deployment or if you already have a 
        connection string for a deployment available.
 
    * - :guilabel:`Advanced Connection Settings`
      - This method allows you to build a connection string with a form.
-       Use this option if you need want to customize the connection 
+       Use this option if you need to customize the connection 
        string and are not sure what options are available.
 
 .. note::
