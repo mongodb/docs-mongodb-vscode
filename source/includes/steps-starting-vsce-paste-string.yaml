@@ -35,23 +35,7 @@ content: |
 
   .. tabs:: 
 
-     .. tab:: Open from Overview Page 
-        :tabid: mdboverview
-
-        a. Perform the action described in the following table for your 
-           operating system and method:
-
-           .. include:: /includes/list-tables/command-palette-options.rst
-        
-        #. From the Command Palette, select :guilabel:`MongoDB: Open 
-           Overview Page`.
-
-           .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
-
-        #. In the *Overview* page, click :guilabel:`Connect` under the 
-           :guilabel:`Connect with Connection String`.
-
-     .. tab:: Open from MongoDB View
+     .. tab:: Open from the MongoDB extension tab
         :tabid: mdbview 
 
         a. Select the |vscode| icon from the left side menu bar
@@ -71,6 +55,22 @@ content: |
         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
            and select :guilabel:`Add MongoDB Connection with Connection 
            String...`.
+
+     .. tab:: Open from Overview Page 
+        :tabid: mdboverview
+
+        a. Perform the action described in the following table for your 
+           operating system and method:
+
+           .. include:: /includes/list-tables/command-palette-options.rst
+        
+        #. From the Command Palette, select :guilabel:`MongoDB: Open 
+           Overview Page`.
+
+           .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
+
+        #. In the *Overview* page, click :guilabel:`Connect` under the 
+           :guilabel:`Connect with Connection String`.
 
      .. tab:: Open Directly 
         :tabid: cmdpalette
