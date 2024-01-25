@@ -93,10 +93,8 @@ Create a Connection to a Deployment
    .. tab:: Connect with Connection String
       :tabid: Connect with Connection String
 
-      When you provide a connection string, |vsce| supports
-      most :manual:`Connection String Options
-      </reference/connection-string/#connection-string-options>`
-      supported by MongoDB.
+      |vsce| supports most :manual:`Connection String Options
+      </reference/connection-string/#connection-string-options>`.
 
       .. include:: /includes/steps/starting-vsce-paste-string.rst
 
