@@ -35,7 +35,7 @@ content: |
 
   .. tabs:: 
 
-     .. tab:: Open from the extension tab
+     .. tab:: Open from the Extension Tab
         :tabid: mdbview 
 
         a. Select the |vscode| icon from the left side menu bar
