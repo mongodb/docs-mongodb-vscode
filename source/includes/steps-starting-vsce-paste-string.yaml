@@ -35,7 +35,7 @@ content: |
 
   .. tabs:: 
 
-     .. tab:: Open from the MongoDB extension tab
+     .. tab:: Open from the extension tab
         :tabid: mdbview 
 
         a. Select the |vscode| icon from the left side menu bar
