@@ -61,9 +61,6 @@ Considerations
 Connect to a Deployment
 -----------------------
 
-Connect to a Deployment
------------------------
-
 |vsce| provides two options to connect to your deployment:
 
 .. list-table::
