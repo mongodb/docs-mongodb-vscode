@@ -74,7 +74,7 @@ content: |
 
            .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
 
-        #. In the *Overview* page, click :guilabel:`Connect` under the 
+        #. On the *Overview* page, click :guilabel:`Connect` under the 
            :guilabel:`Connect with Connection String`.
 
      .. tab:: Open Directly 
