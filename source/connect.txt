@@ -58,42 +58,34 @@ Considerations
 
 .. _vsce-connect-task:
 
-Create a Connection to a Deployment
------------------------------------
+Connect to a Deployment
+-----------------------
 
-|vsce| provides two methods to create a connection to a deployment. You 
-can: 
+|vsce| provides two options to connect to your deployment:
 
-- Provide a deployment connection string, or 
-- Fill in a deployment information in specific fields.
+.. list-table::
+   :header-rows: 1
+   :widths: 20 40
 
-Providing a connection string is faster and easier than filling in a 
-deployment's details. Use this option if |service| hosts your 
-deployment or if you have a connection string for a deployment 
-available.
+   * - Connection Method
+     - Description
 
-Define how your connection is saved with the
-:guilabel:`Default Connection Saving Location`
-:ref:`setting <vsce-settings>`:
+   * - :guilabel:`Connect with Connection String`
+     - This method is a faster and easier than 
+       using the advanced connection settings. Use this option 
+       if |service| hosts your deployment or if you already have a 
+       connection string for a deployment available.
 
-.. include:: includes/connection-location-table.rst
+   * - :guilabel:`Advanced Connection Settings`
+     - This method allows you to build a connection string with a form.
+       Use this option if you need to customize the connection 
+       string and are not sure what options are available.
 
-.. tabs::
+.. note::
 
-   .. tab:: Paste Connection String
-      :tabid: paste-connection-string
-
-      When you provide a connection string, |vsce| supports
-      most :manual:`Connection String Options
-      </reference/connection-string/#connection-string-options>`
-      supported by MongoDB.
-
-      .. include:: /includes/steps/starting-vsce-paste-string.rst
-
-   .. tab:: Fill in Individual Fields
-      :tabid: individual-fields
-
-      .. include:: /includes/steps/starting-vsce-individual-fields.rst
+   You can define how the connections defined in |vsce| are saved with 
+   the :guilabel:`Default Connection Saving Location`
+   :ref:`setting <vsce-settings>`.
 
 .. _vsce-activate-connection:
 
