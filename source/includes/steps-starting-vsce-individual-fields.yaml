@@ -31,6 +31,10 @@ content: |
         a. Expand the :guilabel:`Connections` pane in the left 
            navigation if it's collapsed.
 
+           .. figure:: /images/vsce-expand-connections.png
+              :figwidth: 200px
+              :alt: Image showing connections pane
+
         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`), 
            then click :guilabel:`Add MongoDB Connection` to open the 
            |vsce| *Overview* page.
