@@ -54,19 +54,19 @@ content: |
      .. tab:: Open from MongoDB View
         :tabid: mdbview 
 
-      a. Select the |vscode| icon from the left side menu bar
-         in VSCode.
+       a. Select the |vscode| icon from the left side menu bar
+          in VSCode.
 
-         .. figure:: /images/vsce-mongodb-extension-sidemenu.png
-            :figwidth: 200px
-            :alt: Image VSCode side bar menu.
+          .. figure:: /images/vsce-mongodb-extension-sidemenu.png
+             :figwidth: 200px
+             :alt: Image VSCode side bar menu.
 
         #. Expand the :guilabel:`Connections` pane in the left 
            navigation if it is collapsed.
          
-            .. figure:: /images/vsce-expand-connections.png
-               :figwidth: 200px
-               :alt: Image showing connections tab.
+           .. figure:: /images/vsce-expand-connections.png
+              :figwidth: 200px
+              :alt: Image showing connections tab.
 
         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
            and select :guilabel:`Add MongoDB Connection with Connection 
