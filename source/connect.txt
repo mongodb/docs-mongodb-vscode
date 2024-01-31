@@ -87,6 +87,25 @@ Connect to a Deployment
    the :guilabel:`Default Connection Saving Location`
    :ref:`setting <vsce-settings>`.
 
+
+
+.. tabs::
+
+   .. tab:: Paste Connection String
+      :tabid: paste-connection-string
+
+      When you provide a connection string, |vsce| supports
+      most :manual:`Connection String Options
+      </reference/connection-string/#connection-string-options>`
+      supported by MongoDB.
+
+      .. include:: /includes/steps/starting-vsce-paste-string.rst
+
+   .. tab:: Fill in Individual Fields
+      :tabid: individual-fields
+
+      .. include:: /includes/steps/starting-vsce-individual-fields.rst
+
 .. _vsce-activate-connection:
 
 Activate a Connection 
