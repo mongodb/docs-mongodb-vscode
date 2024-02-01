@@ -51,7 +51,7 @@ content: |
         #. In the *Overview* page, click :guilabel:`Connect` under the 
            :guilabel:`Connect with Connection String`.
 
-     .. tab:: Open from the Extension Tab
+     .. tab:: Open from MongoDB View
         :tabid: mdbview 
 
       a. Select the |vscode| icon from the left side menu bar
