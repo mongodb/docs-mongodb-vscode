@@ -54,15 +54,15 @@ content: |
      .. tab:: Open from MongoDB View
         :tabid: mdbview 
 
-      a. Select the |vscode| icon from the left side menu bar
-         in VSCode.
+         a. Select the |vscode| icon from the left side menu bar
+            in VSCode.
 
-      b. Expand the :guilabel:`Connections` pane in the left 
-         navigation if it is collapsed.
+         #. Expand the :guilabel:`Connections` pane in the left 
+            navigation if it is collapsed.
 
-      c. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
-         and select :guilabel:`Add MongoDB Connection with Connection 
-         String...`.
+         #. Click the :guilabel:`More Actions` menu (:guilabel:`...`) 
+            and select :guilabel:`Add MongoDB Connection with Connection 
+            String...`.
                
      .. tab:: Open Directly 
         :tabid: cmdpalette
