@@ -75,14 +75,14 @@ document in |vscode-short| and view its contents.
 
 *To copy a document in the collection*, you can: 
 
-1. Right-click the ID of the document that document you want to copy.
+1. Right-click the ID of the document you want to copy.
 2. Click :guilabel:`Copy Document`.
 
    |vsce| copies the document to your clipboard.
 
 *To clone a document in the collection*, you can: 
 
-1. Right-click the ID of the document that document you want to clone.
+1. Right-click the ID of the document you want to clone.
 #. Click :guilabel:`Clone Document`.
 
    |vsce| opens the Playground where it displays the command to insert
@@ -99,7 +99,7 @@ document in |vscode-short| and view its contents.
 
 *To remove a document from the collection*, you can: 
 
-1. Right-click the ID of the document that document you want to remove.
+1. Right-click the ID of the document you want to remove.
 2. Click :guilabel:`Delete Document`.
 3. Click :guilabel:`Yes` to confirm.
 
