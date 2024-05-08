@@ -1,0 +1,11 @@
+.. _vsce-require-local:
+
+=================================
+Use require() to Load Local Files
+=================================
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol

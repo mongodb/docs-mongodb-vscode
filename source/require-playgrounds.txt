@@ -37,3 +37,9 @@ tutorials:
 - :ref:`vsce-require`
 
 - :ref:`vsce-require-local`
+
+.. toctree::
+   :titlesonly:
+
+   /require-playgrounds/require-modules
+   /require-playgrounds/require-local
