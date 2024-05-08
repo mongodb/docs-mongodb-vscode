@@ -1,0 +1,39 @@
+.. _vsce-require-landing:
+
+============================
+Use require() in Playgrounds
+============================
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+You can use the `require()
+<https://nodejs.org/api/modules.html#modules_require_id>`__ function to
+re-use code in your playgrounds. The code you include with ``require()``
+can be either:
+
+- A native Node module (such as `fs
+  <https://nodejs.org/api/fs.html#fs_file_system>`__)
+
+- An external Node module downloaded from `npm
+  <https://www.npmjs.com/>`__
+
+- A local JavaScript file
+
+Use Cases
+---------
+
+(?)
+
+Get Started
+-----------
+
+To learn how to use ``require()`` in your playgrounds, see the following
+tutorials:
+
+- :ref:`vsce-require`
+
+- :ref:`vsce-require-local`

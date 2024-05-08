@@ -1,8 +1,8 @@
 .. _vsce-require:
 
-=============================================
-Use ``require()`` to Include External Modules
-=============================================
+====================================
+Use ``require()`` to Include Modules
+====================================
 
 .. default-domain:: mongodb
 
