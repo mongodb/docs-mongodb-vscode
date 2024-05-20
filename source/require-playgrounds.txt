@@ -11,9 +11,9 @@ Use require() in Playgrounds
    :class: singlecol
 
 You can use the `require()
-<https://nodejs.org/api/modules.html#modules_require_id>`__ function to
-re-use code in your playgrounds. The code you include with ``require()``
-can be either:
+<https://nodejs.org/api/modules.html#modules_require_id>`__ function in
+your playgrounds to reuse code in your playgrounds. The code you
+include with ``require()`` can be either:
 
 - A native Node module (such as `fs
   <https://nodejs.org/api/fs.html#fs_file_system>`__)
@@ -26,7 +26,14 @@ can be either:
 Use Cases
 ---------
 
-(?)
+Using ``require()`` to import code helps keep your playgrounds
+organized. If you are often performing the same tasks in your
+playgrounds, you can use ``require()`` to reuse code and avoid writing
+out full functions in each of your playgrounds.
+
+For example, consider the following scenarios where you can reuse code:
+
+- 
 
 Get Started
 -----------
