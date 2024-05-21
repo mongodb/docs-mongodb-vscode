@@ -78,9 +78,9 @@ Steps
 
          use('mongodbVSCodePlaygroundDB');
 
-         const doc1 = { 'name': 'Taylor', 'email': 't123@gmail.com' }
+         const doc1 = { _id: 1, 'name': 'Taylor', 'email': 't123@gmail.com' }
 
-         const doc2 = { 'name': 'Taylor' }
+         const doc2 = { _id: 2, 'name': 'Taylor' }
 
          const docs = [doc1, doc2]
 
@@ -98,11 +98,11 @@ Steps
 Results
 -------
 
-Only one of the sample documents contained both required fields.
-Therefore, ``doc1`` is inserted into the ``people`` collection, and
-``doc2`` is not inserted.
+Only ``doc1``` contains both required fields and is inserted into the
+collection. ``doc2`` does not contain the required field ``email``, and
+is not inserted.
 
-To confirm that the document was inserted, query the ``people``
+To confirm that the correct document was inserted, query the ``people``
 collection:
 
 .. code-block:: javascript
