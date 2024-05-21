@@ -78,11 +78,11 @@ Steps
 
          use('mongodbVSCodePlaygroundDB');
 
-         const doc1 = { _id: 1, 'name': 'Taylor', 'email': 't123@gmail.com' }
+         const doc1 = { _id: 1, 'name': 'Taylor', 'email': 't123@gmail.com' };
 
-         const doc2 = { _id: 2, 'name': 'Taylor' }
+         const doc2 = { _id: 2, 'name': 'Taylor' };
 
-         const docs = [doc1, doc2]
+         const docs = [ doc1, doc2 ];
 
          let inserted_count = 0;
 
@@ -93,7 +93,7 @@ Steps
             }
          } );
 
-         console.log("Inserted " + inserted_count + " document(s)")
+         console.log("Inserted " + inserted_count + " document(s)");
 
    .. step:: Run the playground
 
