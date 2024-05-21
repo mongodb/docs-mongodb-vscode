@@ -31,9 +31,19 @@ organized. If you are often performing the same tasks in your
 playgrounds, you can use ``require()`` to reuse code and avoid writing
 out full functions in each of your playgrounds.
 
-For example, consider the following scenarios where you can reuse code:
+For example, consider the following scenarios where reusing code can
+simplify code and improve productivity:
 
-- 
+- You need to ensure that documents are inserted with a consistent
+  structure. You can import a JavaScript file to validate the data
+  format before the playground script performs the insert.
+
+- You store monetary data and want to convert values between different
+  currencies. You can import a JavaScript function to perform conversion
+  calculations.
+
+- You need to import data from files on your local computer. You can use
+  the native Node module ``fs`` to read data from local files.
 
 Get Started
 -----------
