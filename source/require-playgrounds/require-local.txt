@@ -32,9 +32,9 @@ Steps
    
    .. step:: Create a script file
 
-      The following example script file validates documents to ensure
-      that the required fields are present. Save the script to your
-      local filesystem as ``validate.js``:
+      The following script file validates documents to ensure that the
+      required fields are present. Save the script to your local
+      filesystem as ``validate.js``:
 
       .. code-block:: javascript
 
@@ -70,6 +70,7 @@ Steps
          ``validate.js`` file:
 
       .. code-block:: javascript
+         :emphasize-lines: 3
 
          // playground-1.mongodb.js
 
