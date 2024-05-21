@@ -98,7 +98,7 @@ Steps
 Results
 -------
 
-Only ``doc1``` contains both required fields and is inserted into the
+Only ``doc1`` contains both required fields and is inserted into the
 collection. ``doc2`` does not contain the required field ``email``, and
 is not inserted.
 
