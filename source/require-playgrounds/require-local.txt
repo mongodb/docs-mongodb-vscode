@@ -87,7 +87,7 @@ Steps
          let inserted_count = 0;
 
          docs.forEach((doc) => {
-            if(validate(doc)) {
+            if validate(doc) {
                db.getCollection('people').insertOne(doc);
                inserted_count++;
             }
