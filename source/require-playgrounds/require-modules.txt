@@ -1,8 +1,8 @@
 .. _vsce-require:
 
-============================================
-Use ``require()`` to Include Node.js Modules
-============================================
+========================================
+Use require() to Include Node.js Modules
+========================================
 
 .. default-domain:: mongodb
 
