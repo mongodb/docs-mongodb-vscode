@@ -12,17 +12,17 @@ Use require() to Load Local Files
 
 You can use the `require()
 <https://nodejs.org/api/modules.html#modules_require_id>`__ function in
-your MongoDB Playgrounds to include code from local files. You can
-import script functions to store your code in a single location and
-reuse that code in different playgrounds.
+your MongoDB Playgrounds to include code from local files. You can store
+your code in a single location and reuse that code in different
+playgrounds.
 
 About this Task
 ---------------
 
 This tutorial describes using ``require()`` to load local scripts. You
 can also use ``require()`` to load Node modules, like those downloaded
-from `npm <https://www.npmjs.com/>`__. For more information on using
-``require()`` with Node modules, see :ref:`vsce-require`.
+from `npm <https://www.npmjs.com/>`__. For more information, see
+:ref:`vsce-require`.
 
 Steps
 -----
