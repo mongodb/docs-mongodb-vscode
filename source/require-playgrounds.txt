@@ -29,7 +29,7 @@ Use Cases
 Using ``require()`` to import code helps keep your playgrounds
 organized. If you are often performing the same tasks in your
 playgrounds, you can use ``require()`` to reuse code and avoid writing
-out full functions in each of your playgrounds.
+full functions in each of your playgrounds.
 
 For example, consider the following scenarios where reusing code can
 simplify logic and improve productivity:
