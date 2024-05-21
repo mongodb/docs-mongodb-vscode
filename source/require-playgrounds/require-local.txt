@@ -130,4 +130,4 @@ Learn More
 
 - :ref:`vsce-require`
 
-- :require:`vsce-playground-databases`
+- :ref:`vsce-playground-databases`
