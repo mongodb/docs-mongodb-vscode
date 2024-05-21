@@ -95,6 +95,12 @@ Steps
 
          console.log("Inserted " + inserted_count + " document(s)")
 
+   .. step:: Run the playground
+
+      .. include:: /includes/run-playground.rst
+
+      
+
 Results
 -------
 
