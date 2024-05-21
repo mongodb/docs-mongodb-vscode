@@ -87,7 +87,7 @@ Steps
          let inserted_count = 0;
 
          docs.forEach((doc) => {
-            if validate(doc) {
+            if (validate(doc)) {
                db.getCollection('people').insertOne(doc);
                inserted_count++;
             }
@@ -98,8 +98,6 @@ Steps
    .. step:: Run the playground
 
       .. include:: /includes/run-playground.rst
-
-      
 
 Results
 -------
@@ -123,11 +121,7 @@ Output:
    :copyable: false
 
    [
-      {
-         _id: ObjectId("664cf216ae6252c96b7de8b7"),
-         name: 'Taylor',
-         email: 't123@gmail.com'
-      }
+      { _id: 1, name: 'Taylor', email: 't123@gmail.com' }
    ]
 
 Learn More
