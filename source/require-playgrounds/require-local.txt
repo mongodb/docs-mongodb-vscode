@@ -93,7 +93,7 @@ Steps
             }
          } );
 
-         console.log("Inserted " + inserted_count + " document(s)");
+         console.log("Inserted " + inserted_count + " documents");
 
    .. step:: Run the playground
 
