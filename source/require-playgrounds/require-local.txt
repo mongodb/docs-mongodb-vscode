@@ -46,7 +46,7 @@ Steps
 
             let is_valid = true;
 
-            required_fields.forEach((field) => {
+            for (const field of required_fields) => {
                if (document[field] == null) {
                      is_valid = false;
                }
@@ -86,12 +86,12 @@ Steps
 
          let inserted_count = 0;
 
-         docs.forEach((doc) => {
+         for (const doc in docs) {
             if (validate(doc)) {
                db.getCollection('people').insertOne(doc);
                inserted_count++;
             }
-         } );
+         };
 
          console.log("Inserted " + inserted_count + " documents");
 
