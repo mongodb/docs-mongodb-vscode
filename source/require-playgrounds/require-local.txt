@@ -58,7 +58,7 @@ Steps
 
    .. step:: Create a playground that uses the validation script
 
-      The following playground script uses ``require()`` to call the
+      The following playground uses ``require()`` to call the
       ``validate_data`` function specified in ``validate.js``. The
       ``validate_data`` function is called on two sample documents. If
       the document contains the required fields ``name`` and ``email``,
