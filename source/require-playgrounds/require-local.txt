@@ -46,11 +46,11 @@ Steps
 
             let is_valid = true;
 
-            for (const field of required_fields) => {
+            for (const field of required_fields) {
                if (document[field] == null) {
                      is_valid = false;
                }
-            } );
+            };
             return is_valid;
          };
 
