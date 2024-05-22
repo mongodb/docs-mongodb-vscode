@@ -19,7 +19,7 @@ playgrounds.
 About this Task
 ---------------
 
-This tutorial describes using ``require()`` to load local scripts. You
+This tutorial shows how to use ``require()`` to load local scripts. You
 can also use ``require()`` to load Node modules, like those downloaded
 from `npm <https://www.npmjs.com/>`__. For more information, see
 :ref:`vsce-require`.
