@@ -51,7 +51,7 @@ Steps
 
          gpg: key A8130EC3F9F5F923: public key "MongoDB VS Code Signing Key <vscode@mongodb.com>" imported
          gpg: Total number processed: 1
-         gpg:              imported: 1
+         gpg:               imported: 1
 
       If you have previously imported the key, the command returns:
 
