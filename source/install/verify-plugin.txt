@@ -34,7 +34,7 @@ Steps
 
    .. step:: Download the |vsce| signature file
 
-      Go to the `MongoDB VSCode Releases page
+      Go to the `MongoDB VS Code Releases page
       <https://github.com/mongodb-js/vscode/releases>`__ and download
       the ``.sig`` file for your version of |vsce|.
 
