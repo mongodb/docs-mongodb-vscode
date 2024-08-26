@@ -1,8 +1,8 @@
 .. _vsce-overview:
 
-===================
-MongoDB for VS Code
-===================
+===========
+|vsce-full|
+===========
 
 .. default-domain:: mongodb
 
