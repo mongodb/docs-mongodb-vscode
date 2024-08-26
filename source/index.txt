@@ -22,7 +22,7 @@ MongoDB and your data directly within your coding environment.
 Features
 --------
 
-You can use MongoDB for |vscode-short| to:
+You can use |vsce-full| to:
 
 - Explore your MongoDB Data.
 
