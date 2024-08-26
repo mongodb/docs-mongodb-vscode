@@ -34,10 +34,10 @@ Get Started
 -----------
 
 :doc:`/install`
-  Install |vsce| from the VS Code Marketplace.
+  Install |vsce-full| from the VS Code Marketplace.
 
 :doc:`/connect`
-  Connect to your deployment using |vsce|.
+  Connect to your deployment using |vsce-full|.
 
 :doc:`/databases-collections`
   Explore your databases, collections, and documents.
@@ -47,7 +47,7 @@ Get Started
   run aggregations, and more.
 
 :doc:`/create-cluster-terraform`
-  Create a Shared Tier |service| cluster using a Terraform template included with |vsce|.
+  Create a Shared Tier |service| cluster using a Terraform template included with |vsce-full|.
 
 .. toctree::
    :titlesonly:
