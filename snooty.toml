@@ -1,5 +1,5 @@
 name = "mongodb-vscode"
-title = "MongoDB VS Code Extension"
+title = "MongoDB for VS Code"
 
 intersphinx = ["https://www.mongodb.com/docs/manual/objects.inv",
                "https://www.mongodb.com/docs/atlas/objects.inv"
@@ -119,7 +119,7 @@ url = ":abbr:`URL (Uniform Resource Locator)`"
 utc = ":abbr:`UTC (Coordinated Universal Time)`"
 vpc = ":abbr:`VPC (Virtual Private Cloud)`"
 vsce = "VS Code Extension"
-vsce-full = "MongoDB VS Code Extension"
+vsce-full = "MongoDB for VS Code Extension"
 vscode = "`Microsoft Visual Studio Code <https://code.visualstudio.com/>`__"
 vscode-short = "Visual Studio Code"
 yaml = ":abbr:`YAML (Yet Another Markup Language)`"
