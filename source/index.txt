@@ -56,6 +56,7 @@ Get Started
    /connect
    /databases-collections
    /playgrounds
+   /copilot
    /create-cluster-terraform
    /reference
    Changelog <https://github.com/mongodb-js/vscode/releases>
