@@ -1,8 +1,8 @@
 .. _vsce-copilot:
 
-==============================
-Github Copilot for |vsce-full|
-==============================
+==================================
+MongoDB Github Copilot Participant
+==================================
 
 .. default-domain:: mongodb
 
@@ -11,3 +11,10 @@ Github Copilot for |vsce-full|
    :backlinks: none
    :depth: 1
    :class: singlecol
+
+
+|vsce-full| automatically includes a MongoDB Github Copilot Participant
+to assist in using Copilot with your MongoDB deployments. Through
+Copilot's chat feature, users with |vsce| can engage with their coding
+environment with MongoDB doman-specific knowledge on top of
+VSCode Copilot's LLM. 
