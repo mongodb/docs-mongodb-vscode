@@ -15,6 +15,19 @@ MongoDB Github Copilot Participant
 
 |vsce-full| automatically includes a MongoDB Github Copilot Participant
 to assist in using Copilot with your MongoDB deployments. Through
-Copilot's chat feature, users with |vsce| can engage with their coding
-environment with MongoDB doman-specific knowledge on top of
-VSCode Copilot's LLM. 
+Copilot's chat feature, users with |vsce| can interact their MongoDB
+clusters and generate code with MongoDB domain-specific knowledge on top
+of VSCode Copilot's LLM. 
+
+/query
+------
+
+Users can use the ``/query`` command to generate queries from a natural
+language against a connected MongoDB cluster. The MongoDB Participant
+provides underlying schema information of the relevant collections and
+MongoDB domain specific knowledge to Copilot to generate a response.
+When the LLM generates a query, users can open the query in a playground
+file or run the query directly in their collection. 
+
+/query Example
+~~~~~~~~~~~~~~
