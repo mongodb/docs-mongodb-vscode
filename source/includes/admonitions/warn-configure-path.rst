@@ -1,4 +1,3 @@
-.. important::
 
    To launch your selected MongoDB shell, you must:
 
@@ -10,7 +9,6 @@
    If you install a new version of your MongoDB shell, you will need to 
    update your ``PATH`` variable to reference the new version.
 
-.. seealso::
 
    - To install the legacy :binary:`mongo <mongo>`
      shell, see :manual:`The mongo Shell </mongo>`.
