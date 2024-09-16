@@ -60,8 +60,8 @@ the following query using knowledge of your database schema:
 
 .. code-block:: javascript
    
-   use('fruit');
-   db.getCollection('fruit').find({ type: 'citrus' });
+   use('fruits');
+   db.getCollection('fruits').find({ type: 'citrus' });
 
 
 
