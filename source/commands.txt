@@ -1,8 +1,8 @@
 .. _vsce-commands:
 
-=====================
+=======================
 |vscode-short| Commands
-=====================
+=======================
 
 .. default-domain:: mongodb
 
