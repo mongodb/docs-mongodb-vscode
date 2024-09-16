@@ -31,3 +31,40 @@ file or run the query directly in their collection.
 
 /query Example
 ~~~~~~~~~~~~~~
+
+Consider a ``fruits`` collection that contains documents with the
+following structure:
+
+.. code-block:: javascript
+   :copyable: false
+
+   {
+      _id: 1,
+      item: "tangerine",
+      type: "citrus"
+   }
+   
+   
+In the Github Copilot Chat tab, you can ask the MongoDB Copilot
+participant to generate a query to find all documents in the ``fruits``
+collection that have the type ``citrus``. 
+
+.. code-block:: javascript
+   :copyable: false
+
+   @MongoDB /query find all documents in the fruits collection that have
+   the type citrus
+
+The Github Copilot Chat uses the MongoDB Copilot Participant to generate
+the following query using knowledge of your database schema:
+
+.. code-block:: javascript
+   
+   use('fruit');
+   db.getCollection('fruit').find({ type: 'citrus' });
+
+
+
+
+
+
