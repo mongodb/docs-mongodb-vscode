@@ -13,7 +13,7 @@ MongoDB Github Copilot Participant
    :class: singlecol
 
 
-|vsce-full| automatically includes a MongoDB Github Copilot Participant
+|vsce-full| includes a MongoDB Github Copilot Participant
 to assist in using Copilot with your MongoDB deployments. Through
 Copilot's chat feature, users with |vsce| can interact their MongoDB
 clusters and generate code with MongoDB domain-specific knowledge on top
@@ -22,15 +22,18 @@ of VSCode Copilot's LLM.
 /query
 ------
 
-Users can use the ``/query`` command to generate queries from a natural
-language against a connected MongoDB cluster. The MongoDB Participant
-provides underlying schema information of the relevant collections and
-MongoDB domain specific knowledge to Copilot to generate a response.
+Users can use the ``/query`` command in the Copilot chat to
+generate queries from a natural language against a connected MongoDB
+cluster. The MongoDB Participant provides underlying schema information
+of the relevant collections to Copilot to generate a response. If you do
+not specify a collection in your prompt to Copilot, the MongoDB
+Participant prompts you to select a relevant collection. 
+
 When the LLM generates a query, users can open the query in a playground
 file or run the query directly in their collection. 
 
-/query Example
-~~~~~~~~~~~~~~
+Example
+~~~~~~~
 
 Consider a ``fruits`` collection that contains documents with the
 following structure:
@@ -44,10 +47,9 @@ following structure:
       type: "citrus"
    }
    
-   
-In the Github Copilot Chat tab, you can ask the MongoDB Copilot
-participant to generate a query to find all documents in the ``fruits``
-collection that have the type ``citrus``. 
+Once you connet to the databse that contains the ``fruits`` collection,
+you can ask the Copilot chat to generate a query that finds all documents
+in the ``fruits`` collection that have the type ``citrus``. 
 
 .. code-block:: javascript
    :copyable: false
@@ -60,11 +62,12 @@ the following query using knowledge of your database schema:
 
 .. code-block:: javascript
    
-   use('fruits');
-   db.getCollection('fruits').find({ type: 'citrus' });
+   db.getCollection('fruits').find({ type: 'citrus' })
 
 
+.. toctree::
+   :titlesonly:
 
-
+   /ai-data-usage
 
 
