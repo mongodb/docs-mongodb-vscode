@@ -25,15 +25,15 @@ commands to assist in interacting with your deployment.
 /query
 ------
 
-Users can use the ``/query`` command in the Github Copilot chat to
-generate queries from a natural language against a connected MongoDB
-cluster. The MongoDB Github Copilot Participant provides underlying
-schema information of the relevant collections to Github Copilot to
-generate a response. If you do not specify a collection in your prompt,
-the chat prompts you to select a relevant collection. 
+The ``/query`` command assists in generating queries from a natural
+language against a connected MongoDB cluster. The MongoDB Github Copilot
+Participant provides underlying schema information of the relevant
+collections to Github Copilot to generate a response. If you do not
+specify a collection in your prompt, the chat prompts you to select a
+relevant collection. 
 
-When the LLM generates a query, users can open the query in a playground
-file or run the query directly in their collection. 
+When the LLM generates a query, you can open the query in a playground
+file or run the query directly in your collection. 
 
 Example
 ~~~~~~~
