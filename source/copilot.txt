@@ -38,35 +38,38 @@ file or run the query directly in your collection.
 Example
 ~~~~~~~
 
-Consider a ``fruits`` collection that contains documents with the
-following structure:
+Consider the ``users`` collection in the `Mflix Sample Database
+<`https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
+Each document in the collection has the following structure:
 
 .. code-block:: javascript
    :copyable: false
 
    {
-      _id: 1,
-      item: "tangerine",
-      type: "citrus"
+      _id: {
+         "$oid": "59b99db4cfa9a34dcd7885b6"
+      },
+      name: "Kayden Washington",
+      email: "KW@email.com",
+      password: "11222021"
    }
-   
-Once you connect to the deployment that contains the ``fruits``
+Once you connect to the deployment that contains the ``users``
 collection, you can ask the Github Copilot chat to generate a query that
-finds all documents in the ``fruits`` collection that have the type
-``citrus``. 
+finds the document in the ``users`` collection that has the ``name``
+value of `` "Kayden Washington"``. 
 
 .. code-block:: javascript
    :copyable: false
 
-   @MongoDB /query find all documents in the fruits collection that have
-   the type citrus
+   @MongoDB /query find a document in the users collection with the name
+   of Kayden Washington.
 
 The Github Copilot Chat uses the MongoDB Github Copilot Participant to
 generate the following query using knowledge of your database schema:
 
 .. code-block:: javascript
    
-   db.getCollection('fruits').find({ type: 'citrus' })
+   db.getCollection('users').findOne({ name: 'Kayden Washington' });
 
 
 .. toctree::
