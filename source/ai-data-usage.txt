@@ -17,7 +17,7 @@ information about Gen AI in MongoDB products.
 Third Party Providers
 ---------------------
 
-The MongoDB Github Copilot Participant is powered by `Github Copilot <https://github.com/features/copilot>__.
+The MongoDB Github Copilot Participant is powered by `Github Copilot <https://github.com/features/copilot>`__.
 This is subject to change in the future. 
 
 How Your Data is Used

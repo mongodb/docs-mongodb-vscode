@@ -10,7 +10,8 @@ toc_landing_pages = [
     "/playgrounds",
     "/crud-ops",
     "/playground-databases",
-    "/require-playgrounds"
+    "/require-playgrounds",
+    "/copilot"
 ]
 
 [constants]
