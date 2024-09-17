@@ -39,7 +39,7 @@ Example
 ~~~~~~~
 
 Consider the ``users`` collection in the `Mflix Sample Database
-<`https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
+<https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
 Each document in the collection has the following structure:
 
 .. code-block:: javascript
