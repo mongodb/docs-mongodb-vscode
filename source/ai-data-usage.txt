@@ -17,7 +17,7 @@ information about Gen AI in MongoDB products.
 Third Party Providers
 ---------------------
 
-The MongoDB Github Copilot Participant is powered by Github Copilot.
+The MongoDB Github Copilot Participant is powered by `Github Copilot <https://github.com/features/copilot>__.
 This is subject to change in the future. 
 
 How Your Data is Used
@@ -30,11 +30,6 @@ provider:
 - The full text of your natural language prompt.
 - The schema of the collection you are using, 
   including database name, collection name, field names, and types. 
-- Enable sending sample field values. This is an optional setting to 
-  improve the quality of recommendations. You can manage this through the
-  ``Enable sending sample field values`` setting in 
-  :ref:`Compass settings <compass-settings-reference>`. This setting 
-  is off by default.
 
 The information that is sent will not be shared with any other third 
 parties or stored by the AI provider. We do not send database 

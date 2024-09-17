@@ -68,6 +68,6 @@ the following query using knowledge of your database schema:
 .. toctree::
    :titlesonly:
 
-   /ai-data-usage
+   AI & Data Usage </ai-data-usage>
 
 
