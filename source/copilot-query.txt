@@ -47,7 +47,7 @@ Each document in the collection has the following structure:
 Once you connect to the deployment that contains the ``users``
 collection, you can ask the Github Copilot chat to generate a query that
 finds the document in the ``users`` collection that has the ``name``
-value of `` "Kayden Washington"``. 
+value of ``Kayden Washington``. 
 
 .. code-block:: javascript
    :copyable: false
@@ -89,7 +89,9 @@ collection, you can ask the Github Copilot chat to generate an aggregation pipel
 .. code-block:: javascript
    :copyable: false
 
-   @MongoDB /query Generate an aggregation pipeline on the users collection that first sorts documents alphabetically by name and then removes the password field from each document. 
+   @MongoDB /query Generate an aggregation pipeline on the users 
+   collection that first sorts documents alphabetically by name and then 
+   removes the password field from each document. 
 
 The |copilot| generates the following aggregation pipeline:
 
@@ -107,7 +109,9 @@ You can also iteratively build on your aggregation pipeline.
 .. code-block:: javascript
    :copyable: false
 
-   @MongoDB /query Add a stage to my pipeline that adds a username field ot each document containing the user's email username without the email domain. 
+   @MongoDB /query Add a stage to my pipeline that adds a username field 
+   of each document containing the user's email username without the 
+   email domain. 
 
 The |copilot| returns the following aggregation pipeline:
 
