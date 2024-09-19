@@ -66,7 +66,7 @@ Once the |copilot| generates the query, you can choose to run the query directly
 Build an Aggregation Pipeline
 `````````````````````````````
 
-Consider the ``users`` collection in the `Mflix Sample Database
+You can also use the |copilot| to build aggregation pipelines. Consider the ``users`` collection in the `Mflix Sample Database
 <https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
 Each document in the collection has the following structure:
 
@@ -103,13 +103,13 @@ The |copilot| generates the following aggregation pipeline:
       { $unset: "password" }
    ]);
 
-You can also iteratively build on your aggregation pipeline. 
+You can also iteratively build on your aggregation pipeline:
 
 .. code-block:: javascript
    :copyable: false
 
    @MongoDB /query Add a stage to my pipeline that adds a username field 
-   of each document containing the user's email username without the 
+   to each document containing the user's email without the 
    email domain. 
 
 The |copilot| returns the following aggregation pipeline:
