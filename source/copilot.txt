@@ -12,7 +12,6 @@ MongoDB Github Copilot Participant
    :depth: 1
    :class: singlecol
 
-
 |vsce-full| includes a MongoDB Github Copilot Participant to assist in
 using `Github Copilot <https://github.com/features/copilot>`__ with your
 MongoDB deployments. Through Github Copilot's chat feature, users with
@@ -25,59 +24,22 @@ documentation.
 The MongoDB Github Copilot Participant includes MongoDB-specific
 commands to assist in interacting with your deployment.
 
+Commands
+--------
+
 /query
-------
+~~~~~~
 
 The ``/query`` command assists in generating queries from a natural
-language against a connected MongoDB cluster. The MongoDB Github Copilot
-Participant provides underlying schema information of the relevant
-collections to Github Copilot to generate a response. If you do not
-specify a collection in your prompt, the chat prompts you to select a
-relevant collection. 
+language against a connected MongoDB cluster.
 
-When the LLM generates a query, you can open the query in a playground
-file or run the query directly in your collection. 
 
-Example
-~~~~~~~
-
-Consider the ``users`` collection in the `Mflix Sample Database
-<https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
-Each document in the collection has the following structure:
-
-.. code-block:: javascript
-   :copyable: false
-
-   {
-      _id: {
-         "$oid": "59b99db4cfa9a34dcd7885b6"
-      },
-      name: "Kayden Washington",
-      email: "KW@email.com",
-      password: "11222021"
-   }
-Once you connect to the deployment that contains the ``users``
-collection, you can ask the Github Copilot chat to generate a query that
-finds the document in the ``users`` collection that has the ``name``
-value of `` "Kayden Washington"``. 
-
-.. code-block:: javascript
-   :copyable: false
-
-   @MongoDB /query find a document in the users collection with the name
-   of Kayden Washington.
-
-The Github Copilot Chat uses the MongoDB Github Copilot Participant to
-generate the following query using knowledge of your database schema:
-
-.. code-block:: javascript
-   
-   db.getCollection('users').findOne({ name: 'Kayden Washington' });
 
 
 .. toctree::
    :titlesonly:
 
+   /query </copilot-query>
    AI & Data Usage </ai-data-usage>
 
 
