@@ -17,7 +17,10 @@ MongoDB Github Copilot Participant
 using `Github Copilot <https://github.com/features/copilot>`__ with your
 MongoDB deployments. Through Github Copilot's chat feature, users with
 |vsce| can interact with their MongoDB clusters and generate code with
-MongoDB domain-specific knowledge on top of Github Copilot's LLM. 
+MongoDB domain-specific knowledge on top of Github Copilot's LLM. The
+MongoDB Copilot Participant can also answer questions about your
+database collection schema and provide links to specific MongoDB
+documentation.  
 
 The MongoDB Github Copilot Participant includes MongoDB-specific
 commands to assist in interacting with your deployment.
