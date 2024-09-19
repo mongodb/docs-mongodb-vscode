@@ -13,11 +13,10 @@
    :class: singlecol
 
 The ``/query`` command assists in generating queries from a natural
-language against a connected MongoDB cluster. The MongoDB Github Copilot
-Participant provides underlying schema information of the relevant
-collections to Github Copilot to generate a response. If you do not
-specify a collection in your prompt, the chat prompts you to select a
-relevant collection. 
+language against a connected MongoDB cluster. The |copilot| provides
+underlying schema information of the relevant collections to Github
+Copilot to generate a response. If you do not specify a collection in
+your prompt, the chat prompts you to select a relevant collection. 
 
 When the LLM generates a query, you can open the query in a playground
 file or run the query directly in your collection. 
@@ -55,14 +54,14 @@ value of ``Kayden Washington``.
    @MongoDB /query find a document in the users collection with the name
    of Kayden Washington.
 
-The Github Copilot Chat uses the MongoDB Github Copilot Participant to
+The Github Copilot Chat uses the |copilot| to
 generate the following query using knowledge of your database schema:
 
 .. code-block:: javascript
    
    db.getCollection('users').findOne({ name: 'Kayden Washington' });
 
-Once the MongoDB Github Copilot Participant generates the query, you can choose to run the query directly or open the query in a playground. 
+Once the |copilot| generates the query, you can choose to run the query directly or open the query in a playground. 
 
 Build an Aggregation Pipeline
 `````````````````````````````
