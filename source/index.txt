@@ -54,7 +54,7 @@ Get Started
 
    Install </install>
    Connect </connect>
-   Manage Your Data </databases-collections>
+   Manage Data </databases-collections>
    Explore with Playgrounds </playgrounds>
    Create an Atlas Cluster with Terraform </create-cluster-terraform>
    Reference </reference>
