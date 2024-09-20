@@ -61,7 +61,12 @@ generate the following query using knowledge of your database schema:
    
    db.getCollection('users').findOne({ name: 'Kayden Washington' });
 
-Once the |copilot| generates the query, you can choose to run the query directly or open the query in a playground. 
+Once the |copilot| generates the query, you can choose to run the query
+directly or open the query in a playground. 
+
+      .. figure:: /images/copilot-query.png
+         :figwidth: 700px
+         :alt: Image copilot generating a query
 
 Build an Aggregation Pipeline
 `````````````````````````````
