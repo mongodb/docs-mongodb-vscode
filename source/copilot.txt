@@ -16,7 +16,7 @@
 <https://github.com/features/copilot>`__ with your MongoDB deployments.
 Through GitHub Copilot's chat feature, users with |vsce| can interact
 with their MongoDB clusters and generate code with MongoDB
-domain-specific knowledge on top of GitHub Copilot's LLM. The |copilot
+domain-specific knowledge on top of GitHub Copilot's LLM. The |copilot|
 can also answer questions about your database collection schema and
 provide links to specific MongoDB documentation.  
 
