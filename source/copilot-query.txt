@@ -14,7 +14,7 @@
 
 The ``/query`` command assists in generating queries from a natural
 language against a connected MongoDB cluster. The |copilot| provides
-underlying schema information of the relevant collections to Github
+underlying schema information of the relevant collections to GitHub
 Copilot to generate a response. If you do not specify a collection in
 your prompt, the chat prompts you to select a relevant collection. 
 
@@ -44,7 +44,7 @@ Each document in the collection has the following structure:
    }
 
 Once you connect to the deployment that contains the ``users``
-collection, you can ask the Github Copilot chat to generate a query that
+collection, you can ask the GitHub Copilot chat to generate a query that
 finds the document in the ``users`` collection that has the ``name``
 value of ``Kayden Washington``. 
 
@@ -54,7 +54,7 @@ value of ``Kayden Washington``.
    @MongoDB /query In the sample_mflix database, find a document in the
    users collection with the name of Kayden Washington.
 
-The Github Copilot Chat uses the |copilot| to
+The GitHub Copilot Chat uses the |copilot| to
 generate the following query using knowledge of your database schema:
 
 .. code-block:: javascript
@@ -90,7 +90,7 @@ Each document in the collection has the following structure:
    }
 
 Once you connect to the deployment that contains the ``users``
-collection, you can ask the Github Copilot chat to generate an aggregation pipeline. 
+collection, you can ask the GitHub Copilot chat to generate an aggregation pipeline. 
 
 .. code-block:: javascript
    :copyable: false

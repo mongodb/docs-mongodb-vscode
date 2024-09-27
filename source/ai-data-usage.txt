@@ -9,20 +9,21 @@ AI and Data Usage Information
    :backlinks: none
    :depth: 1
 
-The MongoDB Github Copilot Participant is powered by Generative AI (Gen
-AI), and may give inaccurate responses. See our `Generative AI FAQ
+The |copilot| is powered by Generative AI (Gen AI), and may give
+inaccurate responses. See our `Generative AI FAQ
 <https://dochub.mongodb.org/core/faq-ai-features>`__ for more
 information about Gen AI in MongoDB products.
 
 Third Party Providers
 ---------------------
 
-The MongoDB Github Copilot Participant is powered by `Github Copilot <https://github.com/features/copilot>`__.
+The |copilot| is powered by `GitHub Copilot
+<https://github.com/features/copilot>`__ and the MongoDB Docs Chatbot. 
 
 How Your Data is Used
 ---------------------
 
-When you use the MongoDB Github Copilot Participant, the following
+When you use the |copilot| , the following
 information is sent to MongoDB's backend and/or the third party AI
 provider: 
 
