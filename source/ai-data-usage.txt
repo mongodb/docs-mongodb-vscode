@@ -18,13 +18,13 @@ Third Party Providers
 ---------------------
 
 The |copilot| is powered by `GitHub Copilot
-<https://github.com/features/copilot>`__ and the MongoDB Docs Chatbot. 
+<https://github.com/features/copilot>`__. 
 
 How Your Data is Used
 ---------------------
 
-When you use the |copilot| , the following
-information is sent to MongoDB's backend and/or the third party AI
+When you use the |copilot| , the following information is sent to
+MongoDB's backend, the MongoDB Docs Chatbot, and/or the third party AI
 provider: 
 
 - The full text of your natural language prompt.
