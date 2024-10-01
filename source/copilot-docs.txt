@@ -29,7 +29,7 @@ index in the GitHub Copilot chat:
 
    @MongoDB /docs how do I create an index?
 
-The chat first provides with the following links to MongoDB Documentation:
+The chat first provides the following MongoDB documentation:
 
 - `Create an Index <https://www.mongodb.com/docs/manual/core/indexes/create-index/>`__
 - `createIndexes <https://mongodb.com/docs/manual/reference/command/createIndexes/>`__
