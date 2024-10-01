@@ -1,0 +1,40 @@
+.. _vsce-copilot-docs:
+
+==============
+/docs Command
+==============
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+The ``/docs`` command provides MongoDB specific information to users,
+supplemented by links to MongoDB Documentation. The |copilot| is
+knowledgeable of the latest MongoDB Documentation and uses the
+MongoDB Docs Chatbot API to link users to information in addition to
+the textual response. 
+
+Examples
+~~~~~~~~
+
+Create an Index
+~~~~~~~~~~~~~~~
+
+You can ask the |copilot| to link you to relevant MongoDB Documentation.
+For example, consider the following prompt in the GitHub Copilot chat :
+
+.. code-block:: javascript
+   :copyable: false
+
+   @MongoDB /docs can you link me to documentation on creating an index?
+
+The chat responds with the following pages:
+
+- G
+
+
+   
