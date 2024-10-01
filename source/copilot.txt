@@ -33,7 +33,10 @@ The ``/query`` command assists in generating queries from a natural
 language against a connected MongoDB cluster.
 
 :ref:`/docs <vsce-copilot-docs>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The ``/docs`` command provides links to MongoDB documentation to
+supplement generated information. 
 
 .. toctree::
    :titlesonly:
