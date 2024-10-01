@@ -18,23 +18,52 @@ knowledgeable of the latest MongoDB Documentation and uses the
 MongoDB Docs Chatbot API to link users to information in addition to
 the textual response. 
 
-Examples
-~~~~~~~~
+Example
+~~~~~~~
 
-Create an Index
-~~~~~~~~~~~~~~~
-
-You can ask the |copilot| to link you to relevant MongoDB Documentation.
-For example, consider the following prompt in the GitHub Copilot chat :
+Consider the following prompt that asks for information on creating an
+index in the GitHub Copilot chat:
 
 .. code-block:: javascript
    :copyable: false
 
-   @MongoDB /docs can you link me to documentation on creating an index?
+   @MongoDB /docs how do I create an index?
 
-The chat responds with the following pages:
+The chat first provides with the following links to MongoDB Documentation:
 
-- G
-
-
+- `Create an Index <https://www.mongodb.com/docs/manual/core/indexes/create-index/>`__
+- `createIndexes <https://mongodb.com/docs/manual/reference/command/createIndexes/>`__
+- `Getting Started with MongoDB and Java - CRUD Operations Tutorial <https://www.mongodb.com/developer/languages/java/java-setup-crud-operations>`__
+- `db.collection.createIndex() <https://mongodb.com/docs/manual/reference/method/db.collection.createIndex/>`__
    
+The |copilot| also returns a textual response with information about
+creating an index:
+
+.. code-block:: javascript
+   :copyable: false
+
+   To create an index in MongoDB, you can use the createIndex() method
+   in the MongoDB Shell or the equivalent method for your specific
+   driver. Here are examples for different programming languages:
+
+   MongoDB Shell
+
+      db.collection.createIndex({ <key and index type specification> }, { <options> })
+
+   C#
+
+      collection.CreateIndex(IndexKeys<collection>.<key and index type
+      specification>, <options>);
+      
+   ...
+
+   Indexes support efficient execution of queries in MongoDB. If your
+   application is repeatedly running queries on the same fields,
+   creating an index on those fields can significantly improve
+   performance. However, keep in mind that while indexes improve query
+   performance, they can negatively impact write operations due to the
+   additional overhead of maintaining the index.
+
+.. figure:: /images/copilot-docs.png
+   :figwidth: 700px
+   :alt: Screenshot of copilot providing information on creating an index
