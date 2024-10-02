@@ -12,19 +12,19 @@
    :depth: 1
    :class: singlecol
 
-The ``/docs`` command provides MongoDB specific information to users,
+The ``/docs`` command provides MongoDB-specific information,
 supplemented by links to MongoDB Documentation. The |copilot| is
 knowledgeable of the latest MongoDB Documentation and uses the
-MongoDB Docs Chatbot API to link users to information in addition to
-the textual response. 
+MongoDB Docs Chatbot API to link to information in addition to
+the text response. 
 
 Example
-~~~~~~~
+-------
 
-Consider the following prompt that asks for information on creating an
+The following prompt asks for information on creating an
 index in the GitHub Copilot chat:
 
-.. code-block:: javascript
+.. code-block:: none
    :copyable: false
 
    @MongoDB /docs how do I create an index?
@@ -39,7 +39,7 @@ The chat first provides the following MongoDB documentation:
 The |copilot| also returns a textual response with information about
 creating an index:
 
-.. code-block:: javascript
+.. code-block:: none
    :copyable: false
 
    To create an index in MongoDB, you can use the createIndex() method
