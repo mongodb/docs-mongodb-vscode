@@ -36,7 +36,7 @@ The chat first provides the following MongoDB documentation:
 - `Getting Started with MongoDB and Java - CRUD Operations Tutorial <https://www.mongodb.com/developer/languages/java/java-setup-crud-operations>`__
 - `db.collection.createIndex() <https://mongodb.com/docs/manual/reference/method/db.collection.createIndex/>`__
    
-The |copilot| also returns a textual response with information about
+The |copilot| also returns a text response with information about
 creating an index:
 
 .. code-block:: none
