@@ -15,7 +15,7 @@
 The ``/docs`` command provides MongoDB-specific information,
 supplemented by links to MongoDB Documentation. The |copilot| is
 knowledgeable of the latest MongoDB Documentation and uses the
-MongoDB Docs Chatbot API to link to information in addition to
+MongoDB Docs Chatbot to link to information in addition to
 the text response. 
 
 Example
