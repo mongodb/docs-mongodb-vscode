@@ -13,10 +13,9 @@
    :class: singlecol
 
 The ``/docs`` command provides MongoDB-specific information,
-supplemented by links to MongoDB Documentation. The |copilot| is
-knowledgeable of the latest MongoDB Documentation and uses the
-MongoDB Docs Chatbot to link to information in addition to
-the text response. 
+supplemented by links to MongoDB Documentation. The |copilot| uses
+Retrival-Augmented Generation (RAG) to generate responses based on the
+latest version of MongoDB Documentation.
 
 Example
 -------
