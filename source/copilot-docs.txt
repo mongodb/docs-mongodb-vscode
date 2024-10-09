@@ -35,7 +35,7 @@ index in the GitHub Copilot chat:
 
    @MongoDB /docs How do I create an index?
 
-The chat first provides the following MongoDB documentation:
+The |copilot| first provides the following MongoDB documentation:
 
 - `Create an Index <https://www.mongodb.com/docs/manual/core/indexes/create-index/>`__
 - `createIndexes <https://mongodb.com/docs/manual/reference/command/createIndexes/>`__
@@ -43,8 +43,8 @@ The chat first provides the following MongoDB documentation:
 - `Partial Indexes <https://www.mongodb.com/docs/manual/core/index-partial/>`_
 - `db.collection.createIndexes() <https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndexes/>`_
 
-The |copilot| also returns a text response with information about
-creating an index and code examples:
+The generated response also contains information about creating an index
+and code examples:
 
 .. figure:: /images/copilot-docs.png
    :figwidth: 700px
