@@ -1,0 +1,66 @@
+.. _vsce-copilot-schema:
+
+==============
+/schema Command
+==============
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+
+The ``/schema`` command provides information about your collection
+schema. The |copilot| accesses your connected MongoDB deployment to
+provide schema information in the Copilot generated response. 
+
+Examples
+--------
+
+Provide a Sample Document
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Consider the ``users`` collection in the `Mflix Sample Database
+<https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
+If you are connected to the MongoDB deployment that contains this
+collection, you can ask the |copilot| to provide a sample document. 
+
+.. code-block:: none
+   :copyable: false
+
+   @MongoDB /schema Can you show a sample document from the
+   sample_mflix.users collection?
+
+The GitHub Copilot Chat uses the |copilot| to
+generate the following response using knowledge of your collection
+schema:
+
+.. code-block:: none
+   :copyable: false
+
+   Sure, here is a sample document from the sample_mflix.users
+   collection:
+   
+   {
+      "_id": {
+         "$oid": "5f8473b823bca94021aa1c45"
+      },
+      "email": "john.doe@example.com",
+      "name": "John Doe",
+      "password": "password123",
+      "preferences": {}
+}
+
+Once Copilot generates the response, you can open the JSON output to see
+more information. 
+
+.. figure:: /images/copilot-schema.png
+   :figwidth: 700px
+   :alt: Screenshot of copilot providing a sample document from a
+   collection.
+   
+
+
+
+   
