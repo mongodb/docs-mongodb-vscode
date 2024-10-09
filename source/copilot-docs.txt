@@ -28,7 +28,7 @@ Instructional Questions
 
 You can use the ``/docs`` command to ask how to perform specific
 operations. The following prompt asks for information on creating an
-index in the GitHub Copilot chat:
+index:
 
 .. code-block:: none
    :copyable: false
