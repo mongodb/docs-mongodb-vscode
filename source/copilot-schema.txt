@@ -1,8 +1,8 @@
 .. _vsce-copilot-schema:
 
-==============
+===============
 /schema Command
-==============
+===============
 
 .. default-domain:: mongodb
 
