@@ -23,8 +23,8 @@ Provide a Sample Document
 
 Consider the ``users`` collection in the `Mflix Sample Database
 <https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
-If you are connected to the MongoDB deployment that contains this
-collection, you can ask the |copilot| to provide a sample document. 
+If you are connected to a MongoDB deployment that contains this
+collection, you can ask the |copilot| to provide a sample document:
 
 .. code-block:: none
    :copyable: false
@@ -50,15 +50,14 @@ schema:
       "name": "John Doe",
       "password": "password123",
       "preferences": {}
-}
+   }
 
 Once Copilot generates the response, you can open the JSON output to see
 more information. 
 
 .. figure:: /images/copilot-schema.png
    :figwidth: 700px
-   :alt: Screenshot of copilot providing a sample document from a
-   collection.
+   :alt: Screenshot of copilot providing a sample document from a collection.
    
 
 
