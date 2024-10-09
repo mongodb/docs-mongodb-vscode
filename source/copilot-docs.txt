@@ -33,42 +33,18 @@ index in the GitHub Copilot chat:
 .. code-block:: none
    :copyable: false
 
-   @MongoDB /docs how do I create an index?
+   @MongoDB /docs How do I create an index?
 
 The chat first provides the following MongoDB documentation:
 
 - `Create an Index <https://www.mongodb.com/docs/manual/core/indexes/create-index/>`__
 - `createIndexes <https://mongodb.com/docs/manual/reference/command/createIndexes/>`__
-- `Getting Started with MongoDB and Java - CRUD Operations Tutorial <https://www.mongodb.com/developer/languages/java/java-setup-crud-operations>`__
 - `db.collection.createIndex() <https://mongodb.com/docs/manual/reference/method/db.collection.createIndex/>`__
-   
+- `Partial Indexes <https://www.mongodb.com/docs/manual/core/index-partial/>`_
+- `db.collection.createIndexes() <https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndexes/>`_
+
 The |copilot| also returns a text response with information about
-creating an index:
-
-.. code-block:: none
-   :copyable: false
-
-   To create an index in MongoDB, you can use the createIndex() method
-   in the MongoDB Shell or the equivalent method for your specific
-   driver. Here are examples for different programming languages:
-
-   MongoDB Shell
-
-      db.collection.createIndex({ <key and index type specification> }, { <options> })
-
-   C#
-
-      collection.CreateIndex(IndexKeys<collection>.<key and index type
-      specification>, <options>);
-      
-   ...
-
-   Indexes support efficient execution of queries in MongoDB. If your
-   application is repeatedly running queries on the same fields,
-   creating an index on those fields can significantly improve
-   performance. However, keep in mind that while indexes improve query
-   performance, they can negatively impact write operations due to the
-   additional overhead of maintaining the index.
+creating an index and code examples:
 
 .. figure:: /images/copilot-docs.png
    :figwidth: 700px
