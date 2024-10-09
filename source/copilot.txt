@@ -36,7 +36,7 @@ language against a connected MongoDB cluster.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The ``schema`` command provides schema information about collections in
-your deployment.
+your connected deployment.
 
 .. toctree::
    :titlesonly:
