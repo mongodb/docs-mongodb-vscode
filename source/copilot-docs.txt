@@ -17,10 +17,17 @@ supplemented by links to MongoDB Documentation. The |copilot| uses
 Retrival-Augmented Generation (RAG) to generate responses based on the
 latest version of MongoDB Documentation.
 
-Example
--------
+Examples
+--------
 
-The following prompt asks for information on creating an
+The rest of this page illustrates example use cases for the ``/docs``
+command:
+
+Instructional Questions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use the ``/docs`` command to ask how to perform specific
+operations. The following prompt asks for information on creating an
 index in the GitHub Copilot chat:
 
 .. code-block:: none
@@ -66,3 +73,30 @@ creating an index:
 .. figure:: /images/copilot-docs.png
    :figwidth: 700px
    :alt: Screenshot of copilot providing information on creating an index
+   
+Strategic Questions
+~~~~~~~~~~~~~~~~~~~
+
+You can also use the ``/docs`` command to ask for operation
+recommendations. The following prompt asks for a recommendation on the
+best way to perform semantic search:
+
+.. code-block:: none
+   :copyable: false
+
+   @MongoDB /docs what is the best way to perform semantic search on my
+   data?
+   
+The Copilot response recommends using Atlas Vector Search and provides
+the following links to MongoDB documentation:
+
+- `Atlas Vector Search Overview <https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/>_
+- `How to Do Semantic Search in MongoDB Using Atlas Vector Search <https://www.mongodb.com/developer/products/atlas/semantic-search-mongodb-atlas-vector-search/>`_
+- `How to Perform Semantic Search Against Data in Your Atlas Cluster <https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-tutorial/>`__
+
+The response also includes steps to get started with Atlas Vector
+Search, with a code example:
+
+.. figure:: /images/copilot-docs2.png
+   :figwidth: 700px
+   :alt: Screenshot of copilot providing information on using vector search
