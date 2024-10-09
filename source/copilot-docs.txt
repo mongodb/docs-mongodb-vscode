@@ -78,8 +78,8 @@ Strategic Questions
 ~~~~~~~~~~~~~~~~~~~
 
 You can also use the ``/docs`` command to ask for operation
-recommendations. The following prompt asks for a recommendation on the
-best way to perform semantic search:
+recommendations. The following prompt asks the |copilot| for a
+recommendation on the best way to perform semantic search:
 
 .. code-block:: none
    :copyable: false
@@ -87,7 +87,7 @@ best way to perform semantic search:
    @MongoDB /docs what is the best way to perform semantic search on my
    data?
    
-The Copilot response recommends using Atlas Vector Search and provides
+The generated response recommends using Atlas Vector Search and provides
 the following links to MongoDB documentation:
 
 - `Atlas Vector Search Overview <https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/>_
