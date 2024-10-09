@@ -32,9 +32,7 @@ collection, you can ask the |copilot| to provide a sample document:
    @MongoDB /schema Can you show a sample document from the
    sample_mflix.users collection?
 
-The GitHub Copilot Chat uses the |copilot| to
-generate the following response using knowledge of your collection
-schema:
+GitHub Copilot uses the |copilot| to generate the following response:
 
 .. code-block:: none
    :copyable: false
@@ -56,7 +54,7 @@ Once Copilot generates the response, you can open the JSON output to see
 more information. 
 
 .. figure:: /images/copilot-schema.png
-   :figwidth: 700px
+   :figwidth: 600px
    :alt: Screenshot of copilot providing a sample document from a collection.
    
 
