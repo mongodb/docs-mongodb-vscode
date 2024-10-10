@@ -21,7 +21,7 @@ This example uses the ``users`` collection in the `Mflix Sample Database
 <https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
 Each document in the collection has the following structure:
 
-.. code-block:: none
+.. code-block:: javscript
    :copyable: false
 
    {
@@ -40,8 +40,8 @@ collection, you can ask the |copilot| to show the schema of your collection:
 .. code-block:: none
    :copyable: false
 
-   @MongoDB /schema @MongoDB /schema Can you show the schema for the
-   sample_mflix.users collection?
+   @MongoDB /schema Can you show the schema for the sample_mflix.users
+   collection?
 
 GitHub Copilot uses the |copilot| to generate the following response:
 
