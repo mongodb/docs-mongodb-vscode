@@ -21,7 +21,7 @@ This example uses the ``users`` collection in the `Mflix Sample Database
 <https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
 Each document in the collection has the following structure:
 
-.. code-block:: javscript
+.. code-block:: javascript
    :copyable: false
 
    {
