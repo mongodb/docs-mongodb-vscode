@@ -14,11 +14,8 @@
 The ``/schema`` command provides information about your collection
 schema by accessing your connected MongoDB deployment.
 
-Examples
---------
-
-Provide a Sample Document
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Example
+-------
 
 This example uses the ``users`` collection in the `Mflix Sample Database
 <https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#sample_mflix.users>`__.
