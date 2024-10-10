@@ -45,49 +45,8 @@ collection, you can ask the |copilot| to show the schema of your collection:
 
 GitHub Copilot uses the |copilot| to generate the following response:
 
-.. code-block:: none
-   :copyable: false
-
-   The schema for the sample_mflix.users collection, based on 100
-   sampled documents, is as follows:
-
-   {
-      "_id": {
-         "type": "ObjectId",
-         "probability": 1
-      },
-      "email": {
-         "type": "String",
-         "probability": 1
-      },
-      "name": {
-         "type": "String",
-         "probability": 1
-      },
-      "password": {
-         "type": "String",
-         "probability": 1
-      },
-      "preferences": {
-         "type": ["Document", "Undefined"],
-         "probability": 0.01
-      }
-   }
-
-   Key Points:
-
-   - Fields _id, email, name, and password appear in all documents with
-     a probability of 1.
-   - The preferences field is mostly undefined but occasionally contains
-     a document (1% probability).   
-
-After Copilot generates the response, you can open the output in JSON format.
-
 .. figure:: /images/copilot-schema.png
    :figwidth: 600px
-   :alt: Screenshot of copilot providing a sample document from a collection.
+   :alt: Screenshot of copilot generated a schema description
    
-
-
-
-   
+After Copilot generates the response, you can open the output in JSON format.
