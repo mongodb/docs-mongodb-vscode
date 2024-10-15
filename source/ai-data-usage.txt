@@ -42,3 +42,12 @@ rows/documents from your databases.
 
 For more information on GitHub Copilot’s AI and data usage, see the
 `GitHub Copilot Trust Center <https://copilot.github.trust.page>`_.
+
+Optional Settings
+~~~~~~~~~~~~~~~~~
+
+You can opt-in to send sample field values when you use the :ref:`/query
+<vsce-copilot-query>` command. By default, this setting is off. 
+
+You can turn on the ``Use Sample Docs in Copilot`` option in your VSCode
+settings. 
