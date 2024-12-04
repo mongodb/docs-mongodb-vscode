@@ -78,7 +78,8 @@ Create a New Playground
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 You can create a new playground from the :guilabel:`Playgrounds`
-panel, the |vsce| *Overview* page, or the |vscode| Command Pallette.
+panel, the |vsce| *Overview* page, the |vscode| Command Pallette, or
+your project file.
 
 .. tabs::
 
@@ -120,6 +121,27 @@ panel, the |vsce| *Overview* page, or the |vscode| Command Pallette.
       :tabid: command-palette
 
       .. include:: /includes/steps/open-new-playground.rst
+
+   .. tab:: Your Project File
+      :tabid: project-file
+
+      1. Open a project file.
+
+        In |vscode-short|, click on a file name in the file explorer to
+        open the file.
+
+      $. Highlight the code you want to open in a playground.
+
+        Select any code in your file to export it to a playground
+
+      #. Right click to export your code to a playground
+
+        Right click on your selected code to open the options menu.
+        Click on :guilabel:`MongoDB Copilot Participant` >
+        :guilabel:`Export Code to Playground`. 
+
+        Once you click :guilabel:`Export Code to Playground`, VSCode
+        opens a new playground with your selected code. 
 
 Open a Saved Playground
 ~~~~~~~~~~~~~~~~~~~~~~~
