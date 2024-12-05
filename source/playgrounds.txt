@@ -127,15 +127,15 @@ your project file.
 
       1. Open a project file.
 
-         To open a file in |vscode-short|, click on the file name in the
+         To open a file in |vscode-short|, click the file name in the
          file explorer. 
 
       #. Highlight the code that you want to open in a playground.
 
-      #. Right click to select :guilabel:`Export Code to Playground`.
+      #. Right-click to select :guilabel:`Export Code to Playground`.
 
-         Right click on your selected code to open the options menu.
-         Click on :guilabel:`MongoDB Copilot Participant` >
+         Right-click your selected code to open the options menu.
+         Click :guilabel:`MongoDB Copilot Participant` >
          :guilabel:`Export Code to Playground`. 
 
          When you click :guilabel:`Export Code to Playground`, |vscode-short|
