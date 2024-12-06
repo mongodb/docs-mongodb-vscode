@@ -18,8 +18,8 @@ playgrounds.
 
 .. note::
 
-   :guilabel:`Export to Playground` is only available if you enable
-   |copilot|. 
+   The :guilabel:`Export Code to Playground` feature is only available
+   if you enable |copilot|. 
 
 
 Use the following steps to test your application code in a playground:
@@ -27,8 +27,7 @@ Use the following steps to test your application code in a playground:
 .. procedure::
    :style: normal
    
-   .. step:: Open the project file that contains the MongoDB query that you
-      want to export
+   .. step:: Open the project file that contains the MongoDB query that you want to export
 
    .. step:: Highlight the query that you want to test.
 
