@@ -39,8 +39,8 @@ Use the following steps to test your application code in a playground:
       Click :guilabel:`MongoDB Copilot Extension` >
       :guilabel:`Export Code to Playground`. 
 
-      .. figure:: /images/mongosync.drawio.bakedsvg.svg
-         :alt: Screenshot of the export code to playground menu option
+      .. figure:: /images/export-to-playground.png
+         :alt: Screenshot of the export code to playground menu option.
          :figwidth: 600px
 
       When you click :guilabel:`Export Code to Playground`, |vscode-short|
