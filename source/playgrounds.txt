@@ -78,8 +78,7 @@ Create a New Playground
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 You can create a new playground from the :guilabel:`Playgrounds`
-panel, the |vsce| *Overview* page, the |vscode| Command Pallette, or
-your project file.
+panel, the |vsce| *Overview* page, or the |vscode| Command Pallette.
 
 .. tabs::
 
@@ -122,24 +121,10 @@ your project file.
 
       .. include:: /includes/steps/open-new-playground.rst
 
-   .. tab:: Your Project File
-      :tabid: project-file
-
-      1. Open a project file.
-
-         To open a file in |vscode-short|, click the file name in the
-         file explorer. 
-
-      #. Highlight the code that you want to open in a playground.
-
-      #. Right-click to select :guilabel:`Export Code to Playground`.
-
-         Right-click your selected code to open the options menu.
-         Click :guilabel:`MongoDB Copilot Participant` >
-         :guilabel:`Export Code to Playground`. 
-
-         When you click :guilabel:`Export Code to Playground`, |vscode-short|
-         opens a new playground with your selected code. 
+You can also open a new playground to test and export queries with the
+:ref:`MongoDB Extension for Github Copilot <vsce-copilot>`. For more
+information, see `Export and Test Queries with Copilot
+<vsce-test-queries-copilot>`. 
 
 Open a Saved Playground
 ~~~~~~~~~~~~~~~~~~~~~~~
