@@ -21,6 +21,8 @@ playgrounds.
    The :guilabel:`Export Code to Playground` feature is only available
    if you enable |copilot|. 
 
+Export to Playground
+--------------------
 
 Use the following steps to test your application code in a playground:
 
