@@ -37,6 +37,8 @@ To open a new playground containing the default template:
 
 .. include:: /includes/steps/open-new-playground.rst
 
+.. include: /includes/playground-require-copilot.rst
+
 Export a Query Document
 -----------------------
 
