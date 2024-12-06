@@ -29,7 +29,7 @@ Use the following steps to test your application code in a playground:
 .. procedure::
    :style: normal
    
-   .. step:: Open the project file that contains the MongoDB query that you want to export
+   .. step:: Open the project file that contains the MongoDB query that you want to export.
 
    .. step:: Highlight the query that you want to test.
 
@@ -42,6 +42,9 @@ Use the following steps to test your application code in a playground:
       When you click :guilabel:`Export Code to Playground`, |vscode-short|
       opens a new playground with your selected code in MongoDB shell
       syntax. 
+
+Once you export your code to a playground, you can click
+:icon-fa5:`play` on the top right of your window to run your query. 
 
 .. seealso::
 
