@@ -14,7 +14,7 @@ Export a Query or Pipeline to Language
 
 You can export and translate query documents and aggregation pipelines
 from a :ref:`playground <vsce-playgrounds>` into a programming language
-using the |copilot|. You can export queries and pipelines to the
+using the :ref:`vsce-copilot`. You can export queries and pipelines to the
 following languages:
 
 - C# 
