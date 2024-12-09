@@ -13,8 +13,9 @@ Export a Query or Pipeline to Language
    :class: singlecol
 
 You can export and translate query documents and aggregation pipelines
-from a :ref:`playground <vsce-playgrounds>` into a programming language.
-You can export queries and pipelines to the following languages:
+from a :ref:`playground <vsce-playgrounds>` into a programming language
+using the |copilot|. You can export queries and pipelines to the
+following languages:
 
 - C# 
 - Go
@@ -24,6 +25,11 @@ You can export queries and pipelines to the following languages:
 - Python
 - Ruby
 - Rust
+
+.. note::
+
+   The :guilabel:`Export to Language` feature is only available
+   if you enable |copilot|. 
 
 Prerequisites
 -------------
@@ -40,7 +46,6 @@ The tutorials on this page use the default playground template.
 To open a new playground containing the default template:
 
 .. include:: /includes/steps/open-new-playground.rst
-
 
 Export a Query Document
 -----------------------
