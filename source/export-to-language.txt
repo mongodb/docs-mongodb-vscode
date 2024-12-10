@@ -33,7 +33,7 @@ following languages:
 Prerequisites
 -------------
 
-You must enable |copilot| to use the :guilabel:`Export to Language` feature. 
+You must enable the |copilot| to use the :guilabel:`Export to Language` feature. 
 
 You must open a playground that contains a query document or pipeline
 you want to export. 
