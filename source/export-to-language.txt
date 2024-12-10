@@ -28,11 +28,12 @@ following languages:
 
 .. note::
 
-   The :guilabel:`Export to Language` feature is only available
-   if you enable |copilot|. 
+   
 
 Prerequisites
 -------------
+
+You must enable |copilot| to use the :guilabel:`Export to Language` feature. 
 
 You must open a playground that contains a query document or pipeline
 you want to export. 
