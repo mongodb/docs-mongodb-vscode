@@ -1,4 +1,5 @@
-define: base https://www.mongodb.com/docs/mongodb-vscode
+define: prefix docs/mongodb-vscode
+define: base https://www.mongodb.com/${prefix}
 
 # DOCSP-45968 - Redirect require-modules page
-raw: docs/mongodb-vscode/require-modules -> ${base}/require-playgrounds/require-modules/
+raw: ${prefix}/require-modules -> ${base}/require-playgrounds/require-modules/
