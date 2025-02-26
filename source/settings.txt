@@ -110,17 +110,16 @@ The following table lists the available settings for
      - ``10``
 
    * - :guilabel:`Preset Connections`
-     - Specifies a preset list of connections that can be shared in a workspace
-       or global scope.
+     - Specifies a preset list of connections. Use this setting to share 
+       connection configurations in a workspace or global scope.
      
-       Edit this setting through the ``mdb.presetConnection`` property in 
-       your project's ``settings.json`` file. 
+       Edit the ``mdb.presetConnection`` property in your project's 
+       ``settings.json`` file. 
 
        Within the ``mdb.presetConnections`` object, you 
        can specify:
 
        - A ``name`` for the connection.
-
        - A ``connectionString`` for your deployment.
 
        :red:`WARNING:` Do not store sensitive credentials in this setting. 
