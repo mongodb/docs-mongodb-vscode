@@ -109,6 +109,33 @@ The following table lists the available settings for
        collection. Does not affect playground operations.
      - ``10``
 
+   * - :guilabel:`Preset Connections`
+     - Specifies a preset list of connections that can be shared in a workspace
+       or global scope.
+     
+       Edit this setting through the ``mdb.presetConnection`` property in 
+       your project's ``settings.json`` file. 
+
+       Within the ``mdb.presetConnections`` object, you 
+       can specify:
+
+       - A ``name`` for the connection.
+
+       - A ``connectionString`` for your deployment.
+
+       :red:`WARNING:` Do not store sensitive credentials in this setting. 
+       Connection strings are stored in plain text, so they can be easily 
+       accessed.
+
+     - .. code-block:: json
+      
+          [
+             {
+                "name": "Preset Connection",
+                "connectionString": "mongodb://localhost:27017"
+             }
+          ]
+
    * - :guilabel:`Send Telemetry`
      - If enabled, allows the collection of anonymous diagnostic and 
        usage telemetry data to help improve |vsce|.
