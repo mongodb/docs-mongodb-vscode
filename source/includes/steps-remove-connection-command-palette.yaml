@@ -9,7 +9,9 @@ title: "From the Command Palette, select
 level: 4
 ref: vsce-remove-remove
 content: |
+
   .. include:: /includes/admonitions/tip-mongodb-command-palette.rst
+
   If you have more than one connection, select the connection you want
   to remove from the Command Palette.
 ---
