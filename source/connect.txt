@@ -35,7 +35,7 @@ or sharded cluster host.
    MongoDB Atlas deployments locally. Use the :atlascli:`Atlas CLI </>` 
    to set up and connect to local deployments with MongoDB for VS Code 
    directly from your command line. To create a Local Atlas deployment, 
-   see :atlascli:`atlas-cli-local-cloud`.
+   see :atlascli:`Manage Local and Cloud Deployments from the Atlas CLI </atlas-cli-local-cloud>`.
 
 If you need to install |vsce|, see :ref:`vsce-install` for instructions.
 
