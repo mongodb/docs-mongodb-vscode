@@ -1,0 +1,19 @@
+---
+title: Run ``atlas deployment connect`` in your terminal.
+level: 4
+ref: vsce-enter-connection-info
+content: |
+
+
+---
+title: Select your deployment you wish to connect to.
+level: 4
+ref: vsce-open-overview-page
+content: | 
+
+  
+---
+title: Select **"vscode - MongoDB for VsCode"** as your connection method to save.
+level: 4
+ref: vsce-connect-paste
+content: |
