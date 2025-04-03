@@ -1,7 +1,7 @@
 ---
 title: Connect from the Atlas CLI. 
 level: 4
-ref: vsce-enter-connection-info
+ref: vsce-enter-connection-info-cli
 content: |
 
     In your terminal, run ``atlas auth login`` to authenticate with your 
@@ -11,7 +11,7 @@ content: |
 ---
 title: Run the connection command. 
 level: 4
-ref: vsce-enter-connection-info
+ref: vsce-run-connect-command
 content: |
 
   Run ``atlas deployment connect`` in your terminal.
@@ -24,7 +24,7 @@ content: |
 ---
 title: Select your deployment.
 level: 4
-ref: vsce-open-overview-page
+ref: vsce-select-deployment
 content: | 
 
   Select the deployment you wish to connect to from your list of deployments.
@@ -33,7 +33,7 @@ content: |
 ---
 title: Select |vsce| as your connection method.
 level: 4
-ref: vsce-connect-paste
+ref: vsce-select-connection-method
 content: |
 
   The Atlas CLI prompts you to select your connection method. Select 
@@ -43,7 +43,7 @@ content: |
 ---
 title: Open |vscode-short| and click the :guilabel:`MongoDB` icon in the :guilabel:`Activity Bar`.
 level: 4
-ref: vsce-connect-paste
+ref: vsce-open-connections
 content: |
 
   .. figure:: /images/vsce-mongodb-extension-sidemenu.png
