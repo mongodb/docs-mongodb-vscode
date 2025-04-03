@@ -39,5 +39,5 @@ content: |
   The Atlas CLI prompts you to select your connection method. Select 
   **"vscode - MongoDB for VsCode"**. 
 
-  You can now acces an instance of VS Code opens on the |vcse| 
-  connections panel, and your saved connection is now visible and connected.
+  You can then access an instance of VS Code on the |vcse| 
+  connections panel. Your saved connection is visible and connected.
