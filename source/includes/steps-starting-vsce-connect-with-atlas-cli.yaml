@@ -51,3 +51,7 @@ content: |
      :alt: Image VSCode side bar menu.
 
   You can view your connected deployment under :guilabel:`Connections`.
+
+  .. figure:: /images/vsce-expand-connections.png
+     :figwidth: 600px
+     :alt: Image showing connections pane
