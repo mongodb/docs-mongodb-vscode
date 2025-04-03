@@ -6,7 +6,7 @@ content: |
 
     In your terminal, run ``atlas auth login`` to authenticate with your 
     Atlas login credentials. To learn more, 
-    see :atlascli:`Connect from the {+atlas-cli+} </connect-atlas-cli/>`.
+    see :atlascli:`Connect from the Atlas CLI </connect-atlas-cli/>`.
 
 ---
 title: Run the connection command. 
@@ -37,7 +37,7 @@ ref: vsce-connect-paste
 content: |
 
   The Atlas CLI prompts you to select your connection method. Select 
-  "vscode - MongoDB for VsCode". 
+  **"vscode - MongoDB for VsCode"**. 
 
-  An instance of VS Code will open on the MongoDB for VS Code connections panel. 
-  Your saved connection is now visible and connected.
+  You can now acces an instance of VS Code opens on the |vcse| 
+  connections panel, and your saved connection is now visible and connected.

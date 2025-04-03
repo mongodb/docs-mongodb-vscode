@@ -108,9 +108,8 @@ Create a Connection
       :tabid: Connect with Atlas CLI
 
       The :atlascli:`Atlas CLI </>` allows you to connect to both your 
-      local and Atlas deployments from MongoDB for VsCode.
-
-      Before beginning, :atlascli:`install the Atlas CLI </install-atlas-cli/>`.
+      local and Atlas deployments from MongoDB for VsCode. Before beginning, 
+      :atlascli:`install the Atlas CLI </install-atlas-cli/>`.
 
       .. include:: /includes/steps/starting-vsce-connect-with-atlas-cli.rst
 
