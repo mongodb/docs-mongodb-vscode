@@ -1,19 +1,43 @@
 ---
-title: Run ``atlas deployment connect`` in your terminal.
+title: Connect from the Atlas CLI. 
 level: 4
 ref: vsce-enter-connection-info
 content: |
 
+    In your terminal, run ``atlas auth login`` to authenticate with your 
+    Atlas login credentials. To learn more, 
+    see :atlascli:`Connect from the {+atlas-cli+} </connect-atlas-cli/>`.
 
 ---
-title: Select your deployment you wish to connect to.
+title: Run the connection command. 
+level: 4
+ref: vsce-enter-connection-info
+content: |
+
+  Run ``atlas deployment connect`` in your terminal.
+
+  .. code-block:: 
+
+     atlas deployment connect
+
+
+---
+title: Select your deployment.
 level: 4
 ref: vsce-open-overview-page
 content: | 
 
+  Select the deployment you wish to connect to from your list of deployments.
+
   
 ---
-title: Select **"vscode - MongoDB for VsCode"** as your connection method to save.
+title: Select |vsce| as your connection method.
 level: 4
 ref: vsce-connect-paste
 content: |
+
+  The Atlas CLI prompts you to select your connection method. Select 
+  "vscode - MongoDB for VsCode". 
+
+  An instance of VS Code will open on the MongoDB for VS Code connections panel. 
+  Your saved connection is now visible and connected.
