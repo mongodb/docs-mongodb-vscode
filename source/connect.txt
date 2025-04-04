@@ -111,7 +111,7 @@ Create a Connection
       local and Atlas deployments from MongoDB for VsCode. Before beginning, 
       :atlascli:`install the Atlas CLI </install-atlas-cli/>`.
 
-      .. include:: /includes/steps/starting-vsce-connect-with-atlas-cli.rst
+      .. include:: /includes/starting-vsce-connect-with-atlas-cli.rst
 
 .. _vsce-connect-task-atlas-streams:
 

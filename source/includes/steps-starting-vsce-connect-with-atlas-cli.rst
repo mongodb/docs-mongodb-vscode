@@ -1,4 +1,4 @@
-.. procedure::
+.. procedure:: 
    :style: normal
 
    .. step:: Connect from the Atlas CLI. 
