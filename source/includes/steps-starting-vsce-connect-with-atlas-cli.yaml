@@ -1,57 +1,37 @@
----
-title: Connect from the Atlas CLI. 
-level: 4
-ref: vsce-enter-connection-info-cli
-content: |
+.. procedure::
+   :style: normal
 
-    In your terminal, run ``atlas auth login`` to authenticate with your 
-    Atlas login credentials. To learn more, 
-    see :atlascli:`Connect from the Atlas CLI </connect-atlas-cli/>`.
+   .. step:: Connect from the Atlas CLI. 
 
----
-title: Run the connection command. 
-level: 4
-ref: vsce-run-connect-command
-content: |
+      In your terminal, run ``atlas auth login`` to authenticate with your 
+      Atlas login credentials. To learn more, 
+      see :atlascli:`Connect from the Atlas CLI </connect-atlas-cli/>`.
 
-  Run ``atlas deployment connect`` in your terminal.
+   .. step:: Run the connection command. 
 
-  .. code-block:: 
+      Run ``atlas deployment connect`` in your terminal.
 
-     atlas deployment connect
+      .. code-block:: 
 
+        atlas deployment connect
 
----
-title: Select your deployment.
-level: 4
-ref: vsce-select-deployment
-content: | 
+   .. step::  Select your deployment.
 
-  Select the deployment you wish to connect to from your list of deployments.
+      Select the deployment you wish to connect to from your list of deployments.
+ 
+   .. step:: Select |vsce| as your connection method.
 
-  
----
-title: Select |vsce| as your connection method.
-level: 4
-ref: vsce-select-connection-method
-content: |
+      The Atlas CLI prompts you to select your connection method. Select 
+      **"vscode - MongoDB for VsCode"**. 
 
-  The Atlas CLI prompts you to select your connection method. Select 
-  **"vscode - MongoDB for VsCode"**. 
+   .. step:: Open |vscode-short| and click the :guilabel:`MongoDB` icon in the :guilabel:`Activity Bar`.
 
+      .. figure:: /images/vsce-mongodb-extension-sidemenu.png
+        :figwidth: 600px
+        :alt: Image VSCode side bar menu.
 
----
-title: Open |vscode-short| and click the :guilabel:`MongoDB` icon in the :guilabel:`Activity Bar`.
-level: 4
-ref: vsce-open-connections
-content: |
+      You can view your connected deployment under :guilabel:`Connections`.
 
-  .. figure:: /images/vsce-mongodb-extension-sidemenu.png
-     :figwidth: 600px
-     :alt: Image VSCode side bar menu.
-
-  You can view your connected deployment under :guilabel:`Connections`.
-
-  .. figure:: /images/vsce-expand-connections.png
-     :figwidth: 600px
-     :alt: Image showing connections pane
+      .. figure:: /images/vsce-expand-connections.png
+        :figwidth: 600px
+        :alt: Image showing connections pane
