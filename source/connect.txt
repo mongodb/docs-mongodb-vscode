@@ -31,11 +31,11 @@ or sharded cluster host.
    To create an |service| cluster using a Terraform template included
    with |vsce|, see :ref:`vsce-create-cluster-terraform`.
 
-  You can also use the Local Atlas Experience to build 
-  MongoDB Atlas deployments locally. Use the :atlascli:`Atlas CLI </>` 
-  to set up and connect to local deployments with |vsce|
-  directly from your command line. For more information,
-  see :atlascli:`Manage Local and Cloud Deployments from the Atlas CLI </atlas-cli-local-cloud>`.
+  Starting in version 1.13.0 of |vsce|, you can also use the Local Atlas Experience 
+  to build MongoDB Atlas deployments locally. Use the :atlascli:`Atlas CLI </>` 
+  to set up and connect to local deployments with |vsce| directly from your 
+  command line. For more information, see 
+  :atlascli:`Manage Local and Cloud Deployments from the Atlas CLI </atlas-cli-local-cloud>`.
 
 If you need to install |vsce|, see :ref:`vsce-install` for instructions.
 
