@@ -63,3 +63,4 @@ Get Started
    Create an Atlas Cluster with Terraform </create-cluster-terraform>
    Reference </reference>
    Changelog <https://github.com/mongodb-js/vscode/releases>
+
